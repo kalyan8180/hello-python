@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="ImageEmail">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="174" Top="369" Width="20" Height="20" />
+    </Part>
+  </Item>
+  <Item Name="ImagePassword">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="197" Top="369" Width="20" Height="20" />
+    </Part>
+  </Item>
+  <Item Name="ButtonFacebook">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="329" Top="650" Width="22" Height="22" />
+      <State Left="351" Top="650" Width="22" Height="22" />
+      <State Left="373" Top="650" Width="22" Height="22" />
+      <State Left="395" Top="650" Width="22" Height="22" />
+    </Part>
+  </Item>
+  <Item Name="ButtonTwitter">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="329" Top="672" Width="22" Height="22" />
+      <State Left="351" Top="672" Width="22" Height="22" />
+      <State Left="373" Top="672" Width="22" Height="22" />
+      <State Left="395" Top="672" Width="22" Height="22" />
+    </Part>
+  </Item>
+  <Item Name="ButtonGoogle">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="329" Top="694" Width="22" Height="22" />
+      <State Left="351" Top="694" Width="22" Height="22" />
+      <State Left="373" Top="694" Width="22" Height="22" />
+      <State Left="395" Top="694" Width="22" Height="22" />
+    </Part>
+  </Item>
+  <Item Name="ButtonYoutube">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="329" Top="716" Width="22" Height="22" />
+      <State Left="351" Top="716" Width="22" Height="22" />
+      <State Left="373" Top="716" Width="22" Height="22" />
+      <State Left="395" Top="716" Width="22" Height="22" />
+    </Part>
+  </Item>
+  <Item Name="TipsRed">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="403" Top="360" Width="59" Height="35">
+        <Margins Left="36" Top="11" Right="22" Bottom="23" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="TipsGray">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="473" Top="360" Width="59" Height="35">
+        <Margins Left="36" Top="11" Right="22" Bottom="23" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="ButtonBack">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="90" Top="473" Width="18" Height="19" />
+      <State Left="108" Top="473" Width="18" Height="19" />
+      <State Left="126" Top="473" Width="18" Height="19" />
+      <State Left="144" Top="473" Width="18" Height="19" />
+    </Part>
+  </Item>
+  <Item Name="ImagePass">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="349" Top="923" Width="20" Height="20" />
+    </Part>
+  </Item>
+  <Item Name="ImageDefaultHeaderLarge">
+    <Part id="0" Name="Frame" FillMode="none" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="84" Top="925" Width="80" Height="80" />
+    </Part>
+  </Item>
+  <Item Name="ButtonHeaderEdit">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="181" Top="926" Width="25" Height="26" />
+      <State Left="206" Top="926" Width="25" Height="26" />
+      <State Left="231" Top="926" Width="25" Height="26" />
+      <State Left="256" Top="926" Width="25" Height="26" />
+    </Part>
+  </Item>
+</Skin>

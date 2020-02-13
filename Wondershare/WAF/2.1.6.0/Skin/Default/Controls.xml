@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="SkinForm">
+    <Part id="0" Name="Form" Style="1" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <Region type="Auto" />
+      <Margins Left="8" Top="7" Right="8" Bottom="8" Caption="33" />
+      <Padding Bottom="-1" />
+      <State Left="80" Top="100" Width="98" Height="96">
+        <Margins Left="48" Top="47" Right="49" Bottom="48" />
+      </State>
+      <State Left="80" Top="100" Width="98" Height="96">
+        <Margins Left="48" Top="47" Right="49" Bottom="48" />
+      </State>
+    </Part>
+    <Part id="1" Name="Caption" Visible="False" TransparentMode="Alpha">
+      <Position RelPos="Top" X="210" Y="19" X2="26" Height="16" />
+      <State Left="0" Top="0" Width="0" Height="0">
+        <Font Size="9" Color="0xff646464" Style="Bold" />
+      </State>
+      <State Left="0" Top="0" Width="0" Height="0">
+        <Font Size="9" Color="clBlack" Style="Bold" />
+      </State>
+    </Part>
+    <Part id="2" Name="Icon" FillMode="none" TransparentMode="Alpha">
+      <Position RelPos="TopLeft" />
+    </Part>
+    <Part id="3" Name="RestoreButton" TransparentMode="Alpha">
+      <Position RelPos="TopRight" X="52" Y="7" Width="34" Height="18" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="4" Name="MinButton" TransparentMode="Alpha">
+      <Position RelPos="TopRight" X="86" Y="7" Width="34" Height="18" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="5" Name="MaxButton" TransparentMode="Alpha">
+      <Position RelPos="TopRight" X="52" Y="7" Width="34" Height="18" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="6" Name="CloseButton" FillMode="center" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <Position RelPos="TopRight" X="20" Y="20" Width="18" Height="19" />
+      <State Left="90" Top="454" Width="18" Height="19" />
+      <State Left="108" Top="454" Width="18" Height="19" />
+      <State Left="126" Top="454" Width="18" Height="19" />
+      <State Left="144" Top="454" Width="18" Height="19" />
+    </Part>
+  </Item>
+  <Item Name="NSkinForm">
+    <Part id="0" Name="Form" Style="1" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <Region type="Auto" />
+      <Margins Left="5" Right="5" Bottom="5" />
+      <State Left="80" Top="100" Width="98" Height="96">
+        <Margins Left="49" Top="47" Right="48" Bottom="48" />
+      </State>
+      <State Left="80" Top="100" Width="98" Height="96">
+        <Margins Left="49" Top="47" Right="48" Bottom="48" />
+      </State>
+    </Part>
+    <Part id="1" Name="Caption" Visible="False" TransparentMode="Alpha">
+      <Position RelPos="Top" X="210" Y="19" X2="26" Height="16" />
+      <State Left="0" Top="0" Width="0" Height="0">
+        <Font Size="9" Color="0xff646464" Style="Bold" />
+      </State>
+      <State Left="0" Top="0" Width="0" Height="0">
+        <Font Size="9" Color="clBlack" Style="Bold" />
+      </State>
+    </Part>
+    <Part id="2" Name="Icon" Visible="False" FillMode="none" TransparentMode="Alpha">
+      <Position RelPos="TopLeft" />
+    </Part>
+    <Part id="3" Name="RestoreButton" TransparentMode="Alpha">
+      <Position RelPos="TopRight" X="52" Y="7" Width="34" Height="18" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="4" Name="MinButton" TransparentMode="Alpha">
+      <Position RelPos="TopRight" X="86" Y="7" Width="34" Height="18" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="5" Name="MaxButton" TransparentMode="Alpha">
+      <Position RelPos="TopRight" X="52" Y="7" Width="34" Height="18" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="6" Name="CloseButton" Visible="False" FillMode="center" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <Position RelPos="TopRight" X="20" Y="18" Width="18" Height="19" />
+      <State Left="90" Top="435" Width="18" Height="19" />
+      <State Left="108" Top="435" Width="18" Height="19" />
+      <State Left="126" Top="435" Width="18" Height="19" />
+      <State Left="144" Top="435" Width="18" Height="19" />
+    </Part>
+  </Item>
+  <Item Name="Edit">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <Extension Bottom="1" />
+      <State Left="83" Top="358" Width="38" Height="44">
+        <Margins Left="18" Top="21" Right="19" Bottom="22" />
+      </State>
+      <State Left="83" Top="358" Width="38" Height="44">
+        <Margins Left="18" Top="21" Right="19" Bottom="22" />
+      </State>
+      <State Left="122" Top="358" Width="38" Height="44">
+        <Margins Left="18" Top="21" Right="19" Bottom="22" />
+      </State>
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+  </Item>
+  <Item Name="CheckBox">
+    <Part id="0" Name="Checked" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="124" Top="500" Width="21" Height="21" />
+      <State Left="145" Top="500" Width="21" Height="21" />
+      <State Left="166" Top="500" Width="21" Height="21" />
+      <State Left="145" Top="500" Width="21" Height="21" />
+    </Part>
+    <Part id="1" Name="UnChecked" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="82" Top="500" Width="21" Height="21" />
+      <State Left="103" Top="500" Width="21" Height="21" />
+      <State Left="124" Top="500" Width="21" Height="21" />
+      <State Left="166" Top="500" Width="21" Height="21" />
+    </Part>
+  </Item>
+  <Item Name="ProgressBar">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <State type="Graphics" Width="0" Height="0">
+        <Graphic Type="Rectangle">
+          <Brush Color="0xffebebeb" />
+        </Graphic>
+      </State>
+      <State type="Graphics" Width="0" Height="0">
+        <Font Color="clWhite" />
+        <Graphic Type="Rectangle">
+          <Brush Color="0xfffeb902" />
+        </Graphic>
+      </State>
+    </Part>
+  </Item>
+  <Item Name="ScrollBar">
+    <Part id="0" Name="HorzBar_Left" TransparentMode="Alpha">
+      <Position Width="-1" Height="8" />
+      <State Left="0" Top="0" Width="17" Height="17" />
+      <State Left="17" Top="17" Width="17" Height="17" />
+      <State Left="34" Top="34" Width="17" Height="17" />
+      <State Left="51" Top="51" Width="17" Height="17" />
+    </Part>
+    <Part id="1" Name="HorzBar_Button" TransparentMode="Alpha">
+      <State type="Graphics" Width="17" Height="17">
+        <Graphic Type="Rectangle">
+          <Brush Color="0xffc5c5c5" />
+        </Graphic>
+      </State>
+    </Part>
+    <Part id="2" Name="HorzBar_Right" TransparentMode="Alpha">
+      <Position Width="-1" />
+      <State Left="0" Top="0" Width="17" Height="17" />
+      <State Left="17" Top="17" Width="17" Height="17" />
+      <State Left="34" Top="34" Width="17" Height="17" />
+      <State Left="51" Top="51" Width="17" Height="17" />
+    </Part>
+    <Part id="3" Name="HorzBar_Back" TransparentMode="Alpha">
+      <State type="Graphics" Width="17" Height="17">
+        <Graphic Type="Rectangle">
+          <Brush Color="clWhite" />
+        </Graphic>
+      </State>
+    </Part>
+    <Part id="4" Name="HorzBar_LeftArrow" TransparentMode="Alpha">
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="5" Name="HorzBar_RightArrow" TransparentMode="Alpha">
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="6" Name="HorzBar_ButtonCenter" TransparentMode="Alpha">
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="7" Name="VertBar_Top" TransparentMode="Alpha">
+      <Position Width="8" Height="-1" />
+      <State Left="0" Top="0" Width="17" Height="17" />
+      <State Left="17" Top="17" Width="17" Height="17" />
+      <State Left="34" Top="34" Width="17" Height="17" />
+      <State Left="51" Top="51" Width="17" Height="17" />
+    </Part>
+    <Part id="8" Name="VertBar_Button" TransparentMode="Alpha">
+      <State type="Graphics" Width="17" Height="17">
+        <Graphic Type="Rectangle">
+          <Brush Color="0xffc5c5c5" />
+        </Graphic>
+      </State>
+    </Part>
+    <Part id="9" Name="VertBar_Bottom" TransparentMode="Alpha">
+      <Position Height="-1" />
+      <State Left="0" Top="0" Width="17" Height="17" />
+      <State Left="17" Top="17" Width="17" Height="17" />
+      <State Left="34" Top="34" Width="17" Height="17" />
+      <State Left="51" Top="51" Width="17" Height="17" />
+    </Part>
+    <Part id="10" Name="VertBar_Back" TransparentMode="Alpha">
+      <State type="Graphics" Width="17" Height="17">
+        <Graphic Type="Rectangle">
+          <Brush Color="clWhite" />
+        </Graphic>
+      </State>
+    </Part>
+    <Part id="11" Name="VertBar_TopArrow" TransparentMode="Alpha">
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="12" Name="VertBar_BottomArrow" TransparentMode="Alpha">
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="13" Name="VertBar_ButtonCenter" TransparentMode="Alpha">
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+  </Item>
+  <Item Name="HintSkinForm">
+    <Part id="0" Name="Form" Style="1" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <Region type="Auto" />
+      <Margins Scale="False" Left="5" Top="28" Right="5" Bottom="5" />
+      <State Left="80" Top="208" Width="98" Height="96">
+        <Margins Left="48" Top="47" Right="49" Bottom="48" />
+      </State>
+      <State Left="80" Top="208" Width="98" Height="96">
+        <Margins Left="48" Top="47" Right="49" Bottom="48" />
+      </State>
+    </Part>
+    <Part id="1" Name="Caption">
+      <Position RelPos="Top" X="23" Y="20" X2="20" Height="16" />
+      <State Left="0" Top="0" Width="0" Height="0">
+        <Font Size="9" Color="0xff454545" Style="Bold" />
+      </State>
+      <State Left="0" Top="0" Width="0" Height="0">
+        <Font Size="9" Color="0xff454545" Style="Bold" />
+      </State>
+    </Part>
+    <Part id="2" Name="Icon">
+      <Position RelPos="TopLeft" Scale="False" X="8" Y="8" Width="16" Height="16" />
+    </Part>
+    <Part id="3" Name="RestoreButton" TransparentMode="Alpha">
+      <Position RelPos="TopRight" Scale="False" X="52" Y="7" Width="34" Height="18" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="4" Name="MinButton" TransparentMode="Alpha">
+      <Position RelPos="TopRight" Scale="False" X="86" Y="7" Width="34" Height="18" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="5" Name="MaxButton" TransparentMode="Alpha">
+      <Position RelPos="TopRight" Scale="False" X="52" Y="7" Width="34" Height="18" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="6" Name="CloseButton" FillMode="center" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <Position RelPos="TopRight" X="20" Y="20" Width="18" Height="19" />
+      <State Left="90" Top="454" Width="18" Height="19" />
+      <State Left="108" Top="454" Width="18" Height="19" />
+      <State Left="126" Top="454" Width="18" Height="19" />
+      <State Left="144" Top="454" Width="18" Height="19" />
+    </Part>
+  </Item>
+</Skin>

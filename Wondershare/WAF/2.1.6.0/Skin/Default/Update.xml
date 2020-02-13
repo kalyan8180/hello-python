@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="AnimationInstall">
+    <Part id="0" Name="Start" Style="1" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="WAFInstalling.png" />
+      <Region type="Auto" />
+      <State Left="0" Top="0" Width="180" Height="180">
+        <Animation FrameCount="25" FrameDelay="30" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

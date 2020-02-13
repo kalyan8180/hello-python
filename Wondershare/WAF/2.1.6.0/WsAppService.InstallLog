@@ -1,0 +1,13 @@
+﻿Installing assembly 'C:\Program Files (x86)\Wondershare\WAF\2.1.6.0\WsAppService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Program Files (x86)\Wondershare\WAF\2.1.6.0\WsAppService.exe
+   logfile = C:\Program Files (x86)\Wondershare\WAF\2.1.6.0\WsAppService.InstallLog
+Installing service WsAppService...
+Creating EventLog source WsAppService in log Application...
+Rolling back assembly 'C:\Program Files (x86)\Wondershare\WAF\2.1.6.0\WsAppService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Program Files (x86)\Wondershare\WAF\2.1.6.0\WsAppService.exe
+   logfile = C:\Program Files (x86)\Wondershare\WAF\2.1.6.0\WsAppService.InstallLog
+Restoring event log to previous state for source WsAppService.

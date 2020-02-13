@@ -1,0 +1,596 @@
+message Datetime {
+    optional uint32 time = 1;
+    optional int32 zone = 2;
+}
+
+message Auto_login_fail {
+    optional string cause = 1;
+}
+
+message Waf_api_start {
+    optional string appname = 1;
+}
+
+message Waf_process_quit {
+    optional string appname = 1;
+}
+
+message Support_start {
+    optional string entrance = 1;
+    optional string appname = 2;
+}
+
+message Feedback {
+    optional string entrance = 1;
+}
+
+message Sendfeedback {
+    optional bool addimagesornot = 1;
+    optional int32 image_size = 2;
+    optional string image_format = 3;
+    optional bool logornot = 4;
+    optional string appname = 5;
+}
+
+message Sendfeedback_ok {
+    optional string appname = 1;
+}
+
+message Sendfeedback_fail {
+    optional string cause = 1;
+    optional string appname = 2;
+}
+
+message Followus_account {
+    optional string followus_account_name = 1;
+}
+
+message Appsolution {
+    optional string entrance = 1;
+    optional string appname = 2;
+}
+
+message Startapp {
+    optional string appname = 1;
+}
+
+message Install {
+    optional string appname = 1;
+}
+
+message Install_success {
+    optional string appname = 1;
+}
+
+message Install_fail {
+    optional string cause = 1;
+    optional string appname = 2;
+}
+
+message Update {
+    optional string entrance = 1;
+    optional string appname = 2;
+    optional string before_version = 3;
+    optional string after_version = 4;
+}
+
+message Update_success {
+    optional string appname = 1;
+    optional string before_version = 2;
+    optional string after_version = 3;
+}
+
+message Update_fail {
+    optional string cause = 1;
+    optional string appname = 2;
+    optional string before_version = 3;
+    optional string after_version = 4;
+}
+
+message Update_notice {
+    optional string appname = 1;
+    optional string entrance = 2;
+}
+
+message Update_noversion {
+    optional string appname = 1;
+}
+
+message Update_check_failed {
+    optional string appname = 1;
+    optional string cause = 2;
+}
+
+message Update_skip {
+    optional string appname = 1;
+    optional string before_version = 2;
+    optional string after_version = 3;
+}
+
+message Update_reminded_later {
+    optional string appname = 1;
+    optional string before_version = 2;
+    optional string after_version = 3;
+}
+
+message Update_process {
+    optional string appname = 1;
+    optional string before_version = 2;
+    optional string after_version = 3;
+}
+
+message Update_banner_success {
+    optional string appname = 1;
+}
+
+message Update_banner_failed {
+    optional string appname = 1;
+}
+
+message Update_process_close {
+    optional string appname = 1;
+    optional string before_version = 2;
+    optional string after_version = 3;
+}
+
+message License {
+    optional string entrance = 1;
+    optional string have_license = 2;
+    optional string appname = 3;
+}
+
+message Renewals {
+    optional string appname = 1;
+    optional string functionname = 2;
+}
+
+message Login {
+    optional string entrance = 1;
+    optional string appname = 2;
+}
+
+message Login_button_error {
+    optional string cause = 1;
+}
+
+message Login_ok {
+    optional string appname = 1;
+}
+
+message Login_fail {
+    optional string cause = 1;
+    optional string appname = 2;
+}
+
+message Facebook_loading_failed {
+    optional string cause = 1;
+}
+
+message Facebook_fail {
+    optional string cause = 1;
+}
+
+message Twitter_loading_failed {
+    optional string cause = 1;
+}
+
+message Twitter_fail {
+    optional string cause = 1;
+}
+
+message Google_loading_failed {
+    optional string cause = 1;
+}
+
+message Google_fail {
+    optional string cause = 1;
+}
+
+message Signup {
+    optional string entrance = 1;
+    optional string appname = 2;
+}
+
+message Signup_button_error {
+    optional string cause = 1;
+}
+
+message Signup_ok {
+    optional string appname = 1;
+}
+
+message Signup_fail {
+    optional string cause = 1;
+    optional string appname = 2;
+}
+
+message Signup_close {
+    optional bool signup_close_email = 1;
+    optional bool signup_close_passwordone = 2;
+    optional bool signup_close_passwordtwo = 3;
+}
+
+message Trail_notice {
+    optional string appname = 1;
+    optional string functionname = 2;
+    optional bool login_status = 3;
+}
+
+message Trail_notice_close {
+    optional string appname = 1;
+    optional string functionname = 2;
+    optional bool login_status = 3;
+    optional string timing = 4;
+}
+
+message Trail_notice_buynow {
+    optional string appname = 1;
+    optional string functionname = 2;
+    optional bool login_status = 3;
+}
+
+message Trail_notice_success {
+    optional string appname = 1;
+    optional string functionname = 2;
+    optional bool login_status = 3;
+}
+
+message Trail_notice_failed {
+    optional string appname = 1;
+    optional string functionname = 2;
+    optional string cause = 3;
+    optional bool login_status = 4;
+}
+
+message Trail_notice_retry {
+    optional string appname = 1;
+    optional string functionname = 2;
+    optional bool login_status = 3;
+}
+
+message Payment_notice {
+    optional string appname = 1;
+    optional string functionname = 2;
+    optional bool login_status = 3;
+}
+
+message Payment_notice_launch {
+    optional string appname = 1;
+    optional string functionname = 2;
+    optional bool login_status = 3;
+}
+
+message Payment_notice_launchsuccess {
+    optional string appname = 1;
+    optional string functionname = 2;
+}
+
+message Payment_notice_launchfailed {
+    optional string appname = 1;
+    optional string functionname = 2;
+}
+
+message Payment_notice_close {
+    optional string appname = 1;
+    optional string functionname = 2;
+}
+
+message Pay_page {
+    optional string appname = 1;
+    optional string functionname = 2;
+    optional string entrance = 3;
+}
+
+message Continue_try {
+    optional string appname = 1;
+    optional string functionname = 2;
+}
+
+message Checkout_palpay {
+    optional string appname = 1;
+    optional string functionname = 2;
+    optional string license_type = 3;
+}
+
+message Checkout_card {
+    optional string appname = 1;
+    optional string functionname = 2;
+    optional string license_type = 3;
+}
+
+message Pay_page_close {
+    optional string appname = 1;
+    optional string functionname = 2;
+}
+
+message Payment_confirm_page {
+    optional string appname = 1;
+    optional string functionname = 2;
+}
+
+message Payment_confirm {
+    optional string appname = 1;
+    optional string functionname = 2;
+}
+
+message Payment_success_page {
+    optional string appname = 1;
+    optional string functionname = 2;
+}
+
+message Payment_success_launch {
+    optional string appname = 1;
+    optional string functionname = 2;
+}
+
+message Payment_failed_page {
+    optional string appname = 1;
+    optional string functionname = 2;
+    optional string cause = 3;
+}
+
+message Payment_confirm_again {
+    optional string appname = 1;
+    optional string functionname = 2;
+}
+
+message Re_pay {
+    optional string appname = 1;
+    optional string functionname = 2;
+}
+
+message Payment_failed_page_close {
+    optional string appname = 1;
+    optional string functionname = 2;
+}
+
+message Contact_customer_service {
+    optional string entrance = 1;
+}
+
+message Image_update_ok {
+    optional string image_format = 1;
+    optional int32 image_size = 2;
+}
+
+message Image_update_fail {
+    optional string image_format = 1;
+    optional int32 image_size = 2;
+}
+
+message Modify_data_update_success {
+    optional string image_format = 1;
+    optional int32 image_size = 2;
+    optional bool nicknameornot = 3;
+}
+
+message Modify_data_update_fail {
+    optional string cause = 1;
+}
+
+message Product_request_download {
+    optional string downloader_task_type = 1;
+}
+
+message Product_request_download_fail {
+    optional string product_request_download_fail_cause = 1;
+}
+
+message Downloader_start {
+    optional string downloader_start_type = 1;
+    optional string productname = 2;
+    optional string version = 3;
+    optional string functionname = 4;
+}
+
+message Downloader_fail {
+    optional string productname = 1;
+    optional string version = 2;
+    optional string functionname = 3;
+    optional string downloader_fail_type = 4;
+    optional string downloader_fail_cause = 5;
+}
+
+message Authorization_request {
+    optional string productname = 1;
+    optional string version = 2;
+    optional string functionname = 3;
+    optional bool issuccess = 4;
+    optional string authorization_status = 5;
+}
+
+message Downloader_auto {
+    optional string productname = 1;
+    optional string version = 2;
+    optional string functionname = 3;
+    optional string downloader_auto_type = 4;
+}
+
+message Downloader_auto_fail {
+    optional string productname = 1;
+    optional string version = 2;
+    optional string functionname = 3;
+    optional string downloader_auto_fail_tybe = 4;
+    optional string downloader_auto_fail_cause = 5;
+}
+
+message Auto_install {
+    optional string productname = 1;
+    optional string version = 2;
+    optional string functionname = 3;
+    optional string type = 4;
+}
+
+message Auto_install_fail {
+    optional string productname = 1;
+    optional string version = 2;
+    optional string functionname = 3;
+    optional string auto_install_cause = 4;
+    optional string type = 5;
+}
+
+message Payment_confirm_page_closed {
+    optional string appname = 1;
+    optional string functionname = 2;
+}
+
+message Payment_confirm_page_back {
+    optional string appname = 1;
+    optional string functionname = 2;
+}
+
+message Trail_notice_15min {
+    optional string appname = 1;
+    optional string functionname = 2;
+    optional string order_id = 3;
+}
+
+message Payment_notice_autoclose {
+    optional string appname = 1;
+    optional string functionname = 2;
+}
+
+message Payment_launch_from_web {
+    optional string appname = 1;
+    optional string order_id = 2;
+}
+
+message Checkout_jump_success {
+    optional string appname = 1;
+    optional string functionname = 2;
+    optional bool login_status = 3;
+}
+
+message Checkout_jump_failed {
+    optional string appname = 1;
+    optional string functionname = 2;
+    optional string cause = 3;
+    optional bool login_status = 4;
+}
+
+message Trail_notice_fifteenmin {
+    optional string appname = 1;
+    optional string functionname = 2;
+    optional string order_id = 3;
+}
+
+message Downloader_success {
+    optional string productname = 1;
+    optional string version = 2;
+    optional string functionname = 3;
+    optional string type = 4;
+}
+
+message Downloader_auto_success {
+    optional string productname = 1;
+    optional string version = 2;
+    optional string functionname = 3;
+    optional string type = 4;
+}
+
+message Auto_install_success {
+    optional string productname = 1;
+    optional string version = 2;
+    optional string functionname = 3;
+    optional string type = 4;
+}
+
+message Payment_page_open {
+    optional string appname = 1;
+    optional string functionname = 2;
+    optional string order_id = 3;
+    optional string entrance = 4;
+}
+
+message Payment_page_close {
+    optional string appname = 1;
+    optional string functionname = 2;
+    optional string order_id = 3;
+}
+
+message Payment_page_loading_finish {
+    optional string appname = 1;
+    optional string functionname = 2;
+    optional string order_id = 3;
+}
+
+message Payment_page_back {
+    optional string appname = 1;
+    optional string functionname = 2;
+    optional string order_id = 3;
+}
+
+message Trailpage_loading_success {
+    optional string appname = 1;
+    optional string functionname = 2;
+}
+
+message Update_check_failed_manual {
+    optional string appname = 1;
+    optional string cause = 2;
+}
+
+message View_details {
+    optional string appname = 1;
+}
+
+message Features_learn_more {
+    optional string functionname = 1;
+}
+
+message Sign_out {
+    optional string appname = 1;
+}
+
+message Ads_tracking_page {
+    optional string appname = 1;
+    optional string functionname = 2;
+    optional string channel = 3;
+}
+
+message Recommended_app {
+    optional string appname = 1;
+}
+
+message Recommended_app_install {
+    optional string appname = 1;
+}
+
+message License_trial {
+    optional string functionname = 1;
+}
+
+message License_trial_buy {
+    optional string functionname = 1;
+}
+
+message License_valid {
+    optional string functionname = 1;
+}
+
+message License_invalid {
+    optional string functionname = 1;
+}
+
+message License_invalid_renew {
+    optional string functionname = 1;
+}
+
+message Cart_page_open {
+    optional string appname = 1;
+    optional string functionname = 2;
+}
+
+message Payment_success_page_install {
+    optional string appname = 1;
+    optional string functionname = 2;
+}
+
+message Payment_success_page_install_click {
+    optional string appname = 1;
+    optional string functionname = 2;
+}
+
+message Sign_out_notice {
+    optional string appname = 1;
+}

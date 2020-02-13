@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<LanguageResource Id="ja-JP" Name="Japanese" LocaleName="日本語" Version="1.1" LangID="0x0411" CodePage="932" NameOrder="FamilyGivenName">
+  <Default>
+    <Font Name="Tahoma" Size="9" />
+    <FontMapping>
+	    <Item From="微软雅黑" To="Tahoma" />
+	    <Item From="宋体" To="Tahoma" />
+	  </FontMapping>
+  </Default>
+
+  <Strings>
+
+    <!--消息框按扭文字-->
+    <INF_Yes>はい</INF_Yes>
+    <INF_No>いいえ</INF_No>
+    <INF_OK>OK</INF_OK>
+    <INF_Cancel>キャンセル</INF_Cancel>
+    <INF_ReTry>再度トライ</INF_ReTry>
+    <INF_Information>情報</INF_Information>
+    <INF_Error>エラー</INF_Error>
+
+    <!--通用复用-->
+    <INF_DownCompleted>ダウンロードが完了しましたが、プログラムが実行中です。「OK」をクリックして、プログラムを終了した後、最新版をインストールしてください。</INF_DownCompleted>
+    <INF_SystemErrorInfo>システムに不明なエラーが発生しました</INF_SystemErrorInfo>
+    <INF_ImageFilter>全ての画像</INF_ImageFilter>
+    <INF_InternetFailed>インターネットへの接続が失敗しました。確認後、再試行してください、</INF_InternetFailed>
+    <INF_UnusualInfo>プログラムに異常が起こりました。再試行してください</INF_UnusualInfo>
+
+    <!--主界面-->
+    <INF_Hi>こんにちは</INF_Hi>
+    <!--AppSolution-->
+    <INF_Installing>インストール中</INF_Installing>
+    <INF_SystemException>システムエラーが発生しました</INF_SystemException>
+    <INF_InstallationFailed>インストールが失敗しました</INF_InstallationFailed>
+    <AppItemControl_WhatNew>アップデート情報？</AppItemControl_WhatNew>
+    <AppItemControl_ViewDetail>詳細を表示</AppItemControl_ViewDetail>
+    <AppItemControl_NewVersion>新しいバージョンが利用可能です. ({0})</AppItemControl_NewVersion>
+    <AppSeparatorControl_Installed>インストール済みのアプリケーション</AppSeparatorControl_Installed>
+    <AppSeparatorControl_NewApps>新しいアプリケーション</AppSeparatorControl_NewApps>
+    <!--修改个人资料-->
+    <INF_NameNull>名前を入力してください</INF_NameNull>
+    <INF_ProfileSuccess>プロフィールが正常に変更されました。</INF_ProfileSuccess>
+    <!--LicenseType-->
+    <License_Status>ライセンスの状態:</License_Status>
+    <LicenseType_Number>オーバーランの数</LicenseType_Number>
+    <LicenseType_Devices>機器を超えた回数</LicenseType_Devices>
+    <LicenseType_Period>有効期限が切れてください</LicenseType_Period>
+    <License_HasIntroduce>購入済みの機能</License_HasIntroduce>
+    <License_RecommendIntroduce>必要と思われる機能</License_RecommendIntroduce>
+
+    <!--购买界面-->
+    <INF_Purchased>購入済み</INF_Purchased>
+    <INF_Used>利用済み</INF_Used>
+    <INF_Remaining>残り</INF_Remaining>
+    <INF_Unknown>不明</INF_Unknown>
+    <INF_Time> 回</INF_Time>
+    <INF_Day> 日</INF_Day>
+    <INF_Device> デバイス</INF_Device>
+    <INF_Computer> コンピューター</INF_Computer>
+    <INF_Month> 月</INF_Month>
+    <INF_Quarter> 季刊誌</INF_Quarter>
+    <INF_Week> 週</INF_Week>
+    <INF_Year> 年</INF_Year>
+    <INF_LifeTime>永久</INF_LifeTime>
+    <INF_ValidUntil>有効期間</INF_ValidUntil>
+    <INF_YouSave>お得</INF_YouSave>
+    <INF_Total>合計金額</INF_Total>
+    <INF_Close>閉じる</INF_Close>
+    <INF_ErrorCode>エラーコード</INF_ErrorCode>
+    <INF_Facebook>Facebookアカウント</INF_Facebook>
+    <INF_Twitter>Twitterアカウント</INF_Twitter>
+    <INF_Google>Googleアカウント</INF_Google>
+
+    <PurchasePage_BuyPersons>{0}人が購入しました</PurchasePage_BuyPersons>
+    <PurchaseHintForm_lbVersionIntroduce_Trail>一部の機能しか利用できません。製品版を入手するには、ネットワークに接続する状態でご購入ください。</PurchaseHintForm_lbVersionIntroduce_Trail>
+    <PurchaseHintForm_LoadError>申し訳ございませんが、読み込みが失敗しました。</PurchaseHintForm_LoadError>
+    <PurchaseResultPage_Function>機能</PurchaseResultPage_Function>
+    <PurchaseResultPage_License>ライセンス</PurchaseResultPage_License>
+    <PurchaseResultPage_Question>このウィンドウを閉じると、現在の注文がキャンセルされます。キャンセルしてもよろしいですか？</PurchaseResultPage_Question>
+    <PurchaseForm_Title>安全な決済</PurchaseForm_Title>
+    
+    <!--邮箱验证-->
+    <INF_EmailNull>メールアドレスを入力</INF_EmailNull>
+    <INF_EmailValid>有効なメールアドレスを入力してください</INF_EmailValid>
+    <INF_EmailLength>入力したメールアドレスが長すぎるため、再度試してください</INF_EmailLength>
+
+    <!--登录窗体-->
+    <LoginAuthorizationFailed>承認が失敗したため再度試してください。</LoginAuthorizationFailed>
+    <LoginRequiredPassword>パスワードを入力</LoginRequiredPassword>
+    <LoginPasswordLength>6桁以上のパスワード設定が必要です</LoginPasswordLength>
+    <RegPasswordLength>パスワードは6〜16文字以内で設定してください</RegPasswordLength>
+    <INF_Welcome>{0}へようこそ</INF_Welcome>
+    <LogoutConfirm>アプリからログアウトした場合、再度サインインするまで体験版になります。再度アクティベーションするにはログインしてください。ログアウトしますか？</LogoutConfirm>
+
+    <!--注册窗体-->
+    <RegisterPagePrivacyPolicy>利用規約およびプライバシーポリシーに同意して頂いてからご利用ください。</RegisterPagePrivacyPolicy>
+    <RegisterPagePasswordSimple>パスワードが簡単すぎるため複雑にしてください</RegisterPagePasswordSimple>
+    <RegisterPagePasswordRepeat>パスワードを再度入力</RegisterPagePasswordRepeat>
+    <RegisterPagePasswordMatch>メールアドレスが一致しません。もう一度実行してください。</RegisterPagePasswordMatch>
+    <RegisterPagePasswordExists>メールが既に存在しています。&lt;a&gt;サインイン&lt;/a&gt;してください</RegisterPagePasswordExists>
+
+    <!--FeedBack-->
+    <RegisterPageEmailError>正しいメールアドレスを入力してください</RegisterPageEmailError>
+    <RegisterPageContentLess>内容を10文字以上で入力してください</RegisterPageContentLess>
+    <RegisterPageContentNull>フィードバックを入力してください</RegisterPageContentNull>
+
+    <!--下载进度-->
+    <Progress_Downloading>ダウンロード中、お待ちください…</Progress_Downloading>
+    <Progress_Installing>インストール中、お待ちください…</Progress_Installing>
+    <Progress_Finished>完了しました</Progress_Finished>
+    <UpdateForm_Notify>{0}の新バージョンが利用可能です</UpdateForm_Notify>
+    <UpdateForm_PackInfo>バージョン:{0}  |  サイズ:{1}  |  リリース日:{2}</UpdateForm_PackInfo>
+    <UpdateForm_Md5error>アップデートファイルのMD5チェックサムエラー</UpdateForm_Md5error>
+	
+	  <!--授权窗体-->
+	  <License_LicenseStatus>ライセンスの状態は下記の通りです。</License_LicenseStatus>
+	  <INF_EDITPROFILE>プロファイルを編集</INF_EDITPROFILE>
+	  <INF_INSTALL>インストール</INF_INSTALL>
+	  <INF_Renew>延長</INF_Renew>
+    <LicenseType_Valid>有効</LicenseType_Valid>
+	  <LicenseType_Invalid>無効</LicenseType_Invalid>
+	  <LicenseType_Trial>試用版</LicenseType_Trial>
+    <INF_BUY>購入</INF_BUY>
+	  <INF_MYACCOUNT>マイアカウント</INF_MYACCOUNT>
+
+    <!--卸载窗体-->
+    <INF_UNINSTALL>アンインストール {0}</INF_UNINSTALL>
+
+  </Strings>
+
+  <Forms>
+    <LicenseStatusPage>
+      <lbTrialDescn Text="按钮をクリックしてアクセス権を更新してください. " />
+    </LicenseStatusPage>
+    <LicenseStateForm Text="マイアカウント"/>
+    <AppRecommendListItem>
+	  <lbMoreApps Text="より多くのアプリ" />
+      <btnAppInstall Text="インストール" />
+    </AppRecommendListItem>
+    <ContextMenuControl>
+      <tsSwitchAccounts Text="アカウントを切り替え" />
+      <tsLogout Text="サインアウト" />
+    </ContextMenuControl>
+    <LoginFailPage>
+      <lbTitle Text="サインインに失敗しました。" />
+      <btnReLogin Text="再試行" />
+      <linkHelp Text="フィードバックをWondershareサポートに送信したり、 &lt;a&gt;オンラインサポートを受けることができます&lt;/a&gt;。" />
+    </LoginFailPage>
+    <NewLoginForm Text="サインインまたは登録">
+      <btnClose ToolTip="閉じる" />
+      <lbServiceTip Text="Wondershare Passportでは様々なソリューションをご案内します" />
+    </NewLoginForm>
+    <NewLoginPage>
+      <btnSkip Text="スキップして直接利用する" />
+      <lbLoginTip Text="パスワードまたは登録コードでサインイン" />
+      <lbLoginOther Text="&lt;a&gt;新規アカウントを作成&lt;/a&gt; または" />
+      <btnRegister Text="新規ユーザー登録" />
+      <btnSign Text="サインインまたは登録" />
+      <llbForgot Text="パスワードを忘れた場合" />
+      <tbPassword PlaceHolderText="パスワード/登録コード" />
+      <tbEmail PlaceHolderText="メールアドレス" />
+      <lbUsePassport Text="アカウントを作成していない場合は、体験版をを試用するために以下のアカウントでログインします。" />
+      <lbDescription Text="ご購入いただいたアカウントでサインインしてください。登録Eメールと登録コードを使用して、アプリケーションを登録することができます。&lt;a&gt;&lt;/a&gt;" />
+      <lbRegIntroduce Text="初めての方はPassport IDをご取得ください。" />
+      <lbLoginIntroduce Text="すべてのアプリケーションと 1 つの Wondershare のパスポートを持つサービスにアクセスします。" />
+    </NewLoginPage>
+    <LoginProcessingPage>
+      <lbLoging Text="サインイン中…" />
+    </LoginProcessingPage>
+    <LoginSuccessPage>
+      <lbIntroduce Text="数秒を必要，後でください ！" />
+    </LoginSuccessPage>
+    <EditProfilePage>
+      <lbEmailIntroduce Text="メールアドレス:" />
+      <lbNameIntroduce Text="名前:" />
+	  <lbPhotoIntroduce Text="プロフィール写真:" />
+      <btnSelectImage Text="画像を選択" />
+      <lbImageIntroduce Text=".JPG、.GIFまたは.PNG。最大ファイルサイズは1Mb" />
+      <btnSave Text="確認" />
+      <btnCancel Text="キャンセル" />
+	  <btnBack Text="プロファイルを編集" />
+    </EditProfilePage>
+	  <EditProfileFailPage>
+	    <btnBack Text="プロファイルを編集" />
+	    <btnClose Text="閉じる" />
+	  </EditProfileFailPage>
+    <EditProfileSuccessPage>
+      <lbSuccessInfo Text="プロフィールが正常に変更されました。" />
+      <btnClose Text="閉じる" />
+      <btnBack Text="プロファイルを編集" />
+    </EditProfileSuccessPage>
+	<InstallAppsPage>
+	  <lbFailDesc Text="インストールが失敗しました。再試行してみてください。" />
+	  <lbSuccessDesc Text="インストール完了！" />
+	  <btnRun Text="起動" />
+	  <btnClose Text="閉じる" />
+	</InstallAppsPage>
+    <NoUserHeaderControl>
+      <linkLogin Text="&lt;A&gt;登録&lt;/A&gt;へようこそ。" />
+    </NoUserHeaderControl>
+    <NewRegisterPage>
+      <lbSignUpTip Text="新規登録"/>
+      <linkRegIntroduce Text="アカウントがある場合?" />
+      <lbUsePassport Text="パスポートをご登録して頂くと以下のメリットがあります?" />
+      <lbDescription Text="1.  Enjoy special Member features &#xD;&#xA;2.  Preferred customer service &amp; technical support&#xD;&#xA;3.  Manage your account permissions &amp; product subscriptions" />
+      <tbEmail PlaceHolderText="メールアドレス" />
+      <tbPassword PlaceHolderText="パスワード" />
+      <tbPassword2 PlaceHolderText="パスワードを再度入力" />
+      <btnSignup Text="今すぐ登録" />
+      <linkPrivacyPolicy Text="&lt;a href=&quot;terms&quot;&gt;利用規約&lt;/a&gt;および&lt;a href=&quot;privacy&quot;&gt;プライバシーポリシー&lt;/a&gt;に同意するものとします。" />
+      <lbLoginIntroduce Text="すべてのアプリケーションと 1 つの Wondershare のパスポートを持つサービスをアクセスします。" />
+      <lbIntroduce Text="数秒を必要，後でください ！" />
+      <linkHelp Text="フィードバックをWondershareサポートに送信したり、 &lt;a&gt;オンラインサポートを受けることができます&lt;/a&gt;。" />
+      <btnReSignup Text="再試行" />
+      <lbTitle Text="登録に失敗しました。" />
+      <labProcessing Text="登録中…" />
+      <labProcessingIntroduce Text="数秒を必要，後でください ！" />
+    </NewRegisterPage>
+    
+    <!--权限列表-->
+    <LicenseControl>
+      <btnPay Text="延長" />
+    </LicenseControl>
+    <LicenseListPage>
+      <lbIntroduce Text="無効なライセンスIDです。" />
+      <btnAppsolution Text="より多くのアプリをチェックする" />
+    </LicenseListPage>
+    <LicenseRecommendItemControl>
+      <btnPay Text="購入" />
+    </LicenseRecommendItemControl>
+    <LicenseSeparatorControl>
+      <lbIntroduce Text="機能を購入していません。" />
+      <btnAppsolution Text="より多くのアプリをチェックする" />
+    </LicenseSeparatorControl>
+
+    <!--购买界面-->
+    <PurchaseForm>
+      <btnClose ToolTip="閉じる" />
+    </PurchaseForm>
+    <PurchaseErrorPage>
+      <lbIntroduce Text="この機能をご利用頂きたい場合、ご購入ください。" />
+      <linkErrorText Text="申し訳ございませんが、読み込みが失敗しました。" />
+      <btnRetry Text="再試行" />
+    </PurchaseErrorPage>
+    <PurchasePage>
+      <lbIntroduce Text="この機能をご利用頂きたい場合、ご購入ください。" />
+      <btnPayPal Text="Paypalで決済" />
+      <btnCreditCard Text="クレジットで決済" />
+      <linkLearnMore Text="詳細 &gt;&gt;" />
+      <linkSkip Text="スキップして直接利用する" />
+    </PurchasePage>
+    <PurchaseResultPage>
+      <btnConfirm Text="はい、できました" />
+      <btnPayAgain Text="いいえ、できなかったので再度やり直します" />
+      <lbIntroduce Text="ご注文が正常に送信されました" />
+      <lbConfirmIntroude Text="ブラウザよりお支払を完了してください。" />
+      <lbSuccessIntroduce Text="以下のメールアドレスとパスワードの情報でアカウントにサインインしてください。" />
+      <lbSuccessTitle Text="ご注文が完了しました。" />
+      <btnFindMoreApps Text="より多くのアプリをチェックする" />
+      <btnViewLicence Text="閉じる" />
+      <lbFailIntroduce Text="再度支払いが正常に最後まで進んだか確認してください。" />
+      <lbFailTitle Text="残念ながら、今回お支払いが受領されませんでした。" />
+      <btnPaymentFailed Text="いいえ、再度やり直します" />
+      <btnReConfirm Text="はい、正常に進みました" />
+      <linkSupport Text="もしまだ問題がありましたら、&lt;a&gt;サポートチームまでお問い合わせください&lt;/a&gt;。" />
+      <!--<btnBack Text="前へ" />-->
+      <lbConfirmButtontIntroduce Text="正常に購入できましたか？" />
+      <lbSigned Text="Wondershareパスポートが登録されました。" />
+      <lbEmailIntroduct Text="アカウント" />
+      <lbPasswordIntroduce Text="パスワード" />
+      <lbPurchasedIntroduce Text="購入したアプリ" />
+    </PurchaseResultPage>
+    <OrderItemControl>
+      <btnInstall Text="インストール" />
+      <lbInstallIntroduce Text="機能にアクセスするには、初めにプログラムをインストールしてください。" />
+    </OrderItemControl>
+    <PurchaseHintForm>
+      <btnBuynow Text="購入" />
+      <btnLaunch Text="機能をお楽しみください" />
+      <btnTryAgain Text="再試行" />
+      <linkSignin Text="購入済みですか？ 今すぐ&lt;a&gt;登録&lt;/a&gt;" />
+      <linkVersion Text="試用版をご利用しています。" />
+      <lbErrorTitle Text="接続が失敗しました。" />
+      <lbSuccessTitle Text="現在製品版をご利用しています。" />
+    </PurchaseHintForm>
+    <PurchaseFeaturePage>
+      <linkSkip Text="続く" />
+      <btnBuynow Text="購入" />
+      <linkSignin Text="購入済みですか？今すぐ&lt;a&gt;登録&lt;/a&gt;" />
+    </PurchaseFeaturePage>
+
+    <UpdateForm Text="アップグレード">
+      <lbNotify Text="新しいバージョンが利用可能です。更新してもよろしいですか？" />
+      <lbWhatNew Text="アップデート情報:" />
+      <btnSkip Text="次回から表示しない" />
+      <btnUpdate Text="更新する" />
+      <btnClose Text="後で表示する" />
+      <lblProgressMsg Text="アップデートを確認" />
+      <lblInformation Text="現在ご利用中のバージョンは最新版です。" />
+      <lbFailed Text="アップデートに失敗しました。" />
+      <lbErrorTips Text="ユーザー名またはパスワードが無効です" />
+      <btnRetry Text="再試行" />
+      <linkHelp Text="フィードバックをWondershareサポートに送信したり、&lt;a&gt;オンラインサポート&lt;/a&gt;を受けることができます。" />
+      <linkShow Text="パスワードがメールボックスに送信され、ご確認ください。" />
+    </UpdateForm>
+    <WAFUpdateForm>
+      <btnUpdate Text="更新する"  />
+      <lbNotify Text="Wondershareパスポートの新しいバージョンが利用可能です。" />
+      <lbWhatNew Text="ヒント：" />
+      <textIntro Text="WondershareパスポートはWondershareオフィシャルのアプリケーションサービスコンポーネントです。アプリケーションを正常に実行できるため、最新版をご利用ください。" />
+    </WAFUpdateForm>
+    <FeedbackForm Text="フィードバック">
+      <tbEmail PlaceHolderText="返信を受けられるメールアドレスを入力してください。" />
+      <tbDescription PlaceHolderText="エラーメッセージ、スクリーンショット、デバイス情報などの詳しい情報が速やかに問題點の解決に役に立ちます。" />
+      <btnSubmit Text="送信" />
+      <btnAddimages Text="画像を追加" />
+      <linkHelp Text="フィードバックをWondershareサポートに送信したり、&lt;a&gt;オンラインサポート&lt;/a&gt;を受けることができます。" />
+      <lbLogIntoduce Text="logファイルを添付（自動的にアップロード）" />
+      <lbInstructions Text="ご意見をいただきました。サポートティームができるだけ早くご質問を回答します。どうもありがとうございます！" />
+      <lbError Text="送信が失敗しました！" />
+      <btnReSubmit Text="再試行" />
+      <linkSupport Text="問題がまだ解決しない場合、&lt;a&gt;サポートにお問い合わせ&lt;/a&gt;ください。" />
+    </FeedbackForm>
+    <ActivityHintForm>
+      <cbShow Text="次回から表示しない" />
+    </ActivityHintForm>
+    <InstallAppsForm Text="アプリをインストール" />
+  </Forms>
+</LanguageResource>

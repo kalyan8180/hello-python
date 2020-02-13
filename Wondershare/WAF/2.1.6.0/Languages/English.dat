@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<LanguageResource Id="en-US" Name="English" LocaleName="English" Version="1.1" LangID="0x0409" CodePage="1252">
+  <Default>
+    <Font Name="Tahoma" Size="8" />
+    <FontMapping>
+	    <Item From="微软雅黑" To="Tahoma" />
+	    <Item From="宋体" To="Tahoma" />
+	</FontMapping>
+  </Default>
+
+  <Strings>
+
+    <!--消息框按扭文字-->
+    <INF_Yes>Yes</INF_Yes>
+    <INF_No>No</INF_No>
+    <INF_OK>OK</INF_OK>
+    <INF_Cancel>Cancel</INF_Cancel>
+    <INF_ReTry>ReTry</INF_ReTry>
+    <INF_Information>Infomation</INF_Information>
+    <INF_Error>Error</INF_Error>
+
+    <!--通用复用-->
+    <INF_DownCompleted>Download completed.However,the program is running.Please click OK to terminate the program and install the new version.Click Cancel to install it next time.</INF_DownCompleted>
+    <INF_SystemErrorInfo>System unknown error occurred</INF_SystemErrorInfo>
+    <INF_ImageFilter>All Image</INF_ImageFilter>
+    <INF_InternetFailed>Internet connection failed, please check the connection and retry</INF_InternetFailed>
+    <INF_UnusualInfo>The program is unusual,please try again</INF_UnusualInfo>
+
+    <!--主界面-->
+    <INF_Hi>Hi</INF_Hi>
+    <!--AppSolution-->
+    <INF_Installing>Installing</INF_Installing>
+    <INF_SystemException>System error</INF_SystemException>
+    <INF_InstallationFailed>Installation failed</INF_InstallationFailed>
+    <AppItemControl_WhatNew>What's new?</AppItemControl_WhatNew>
+    <AppItemControl_ViewDetail>View details</AppItemControl_ViewDetail>
+    <AppItemControl_NewVersion>A new version is available. ({0})</AppItemControl_NewVersion>
+    <AppSeparatorControl_Installed>Installed Applications</AppSeparatorControl_Installed>
+    <AppSeparatorControl_NewApps>New Applications</AppSeparatorControl_NewApps>
+    <!--修改个人资料-->
+    <INF_NameNull>Please enter the name</INF_NameNull>
+    <INF_ProfileSuccess>Profile modified successfully,thank you!</INF_ProfileSuccess>
+    <!--LicenseType-->
+    <License_Status>License status:</License_Status>
+    <LicenseType_Number>Times are up</LicenseType_Number>
+    <LicenseType_Devices>Devices are up</LicenseType_Devices>
+    <LicenseType_Period>Expired</LicenseType_Period>
+    <License_HasIntroduce>Features you purchased</License_HasIntroduce>
+    <License_RecommendIntroduce>Features you may need</License_RecommendIntroduce>
+
+    <!--购买界面-->
+    <INF_Purchased>Purchased</INF_Purchased>
+    <INF_Used>Used</INF_Used>
+    <INF_Remaining>Remaining</INF_Remaining>
+    <INF_Unknown>Unknown</INF_Unknown>
+    <INF_Time> times</INF_Time>
+    <INF_Day> days</INF_Day>
+    <INF_Device> devices</INF_Device>
+    <INF_Computer> computer</INF_Computer>
+    <INF_Month> month</INF_Month>
+    <INF_Quarter> quarter</INF_Quarter>
+    <INF_Week> week</INF_Week>
+    <INF_Year> year</INF_Year>
+    <INF_LifeTime>lifetime</INF_LifeTime>
+    <INF_ValidUntil>Valid until</INF_ValidUntil>
+    <INF_YouSave>You save</INF_YouSave>
+    <INF_Total>Total Price</INF_Total>
+    <INF_Close>Close</INF_Close>
+    <INF_ErrorCode>Error code</INF_ErrorCode>
+    <INF_Facebook>Facebook Account</INF_Facebook>
+    <INF_Twitter>Twitter Account</INF_Twitter>
+    <INF_Google>Google Account</INF_Google>
+
+    <PurchasePage_BuyPersons>{0} purchased</PurchasePage_BuyPersons>
+    <PurchaseHintForm_lbVersionIntroduce_Trail>You can only use partial features. Please get premium permissions to enjoy the full features.</PurchaseHintForm_lbVersionIntroduce_Trail>
+    <PurchaseHintForm_LoadError>Sorry … Loading Failed.</PurchaseHintForm_LoadError>
+    <PurchaseResultPage_Function>Function</PurchaseResultPage_Function>
+    <PurchaseResultPage_License>License</PurchaseResultPage_License>
+    <PurchaseResultPage_Question>The current order will be cancelled if you close the window. Are you sure you want to cancel this order? </PurchaseResultPage_Question>
+    <PurchaseForm_Title>Secure Checkout</PurchaseForm_Title>
+    
+    <!--邮箱验证-->
+    <INF_EmailNull>Please enter your email</INF_EmailNull>
+    <INF_EmailValid>Please enter a valid email address</INF_EmailValid>
+    <INF_EmailLength>The email address you entered is too long, Please try again</INF_EmailLength>
+
+    <!--登录窗体-->
+    <LoginAuthorizationFailed>Authorization failed, please retry.</LoginAuthorizationFailed>
+    <LoginRequiredPassword>Please enter a password</LoginRequiredPassword>
+    <LoginPasswordLength>The password cannot be less than 6</LoginPasswordLength>
+    <RegPasswordLength>The password cannot be less than 6, greater than 16</RegPasswordLength>
+    <INF_Welcome>Welcome, {0}</INF_Welcome>
+    <LogoutConfirm>When you log out of the app(s) they will revert back to the trial version until you login again.Login to re-activate your software. Do you wish to quit?</LogoutConfirm>
+
+    <!--注册窗体-->
+    <RegisterPagePrivacyPolicy>You must read and agree to use instructions and Privacy Policy</RegisterPagePrivacyPolicy>
+    <RegisterPagePasswordSimple>The password is too simple</RegisterPagePasswordSimple>
+    <RegisterPagePasswordRepeat>Repeat the password</RegisterPagePasswordRepeat>
+    <RegisterPagePasswordMatch>Password does not match,please try again</RegisterPagePasswordMatch>
+    <RegisterPagePasswordExists>Email already exists, Please &lt;a&gt;sign in&lt;/a&gt;</RegisterPagePasswordExists>
+
+    <!--FeedBack-->
+    <RegisterPageEmailError>Please enter the correct email address</RegisterPageEmailError>
+    <RegisterPageContentLess>The content cannot be less than 10</RegisterPageContentLess>
+    <RegisterPageContentNull>Please enter your feedback</RegisterPageContentNull>
+
+    <!--下载进度-->
+    <Progress_Downloading>Downloading, please wait...</Progress_Downloading>
+    <Progress_Installing>Installing, please wait...</Progress_Installing>
+    <Progress_Finished>finished</Progress_Finished>
+    <UpdateForm_Notify>A new version is available for {0}</UpdateForm_Notify>
+    <UpdateForm_PackInfo>Version:{0}  |  Size:{1}  |  Release Date:{2}</UpdateForm_PackInfo>
+    <UpdateForm_Md5error>Update file MD5 checksum error</UpdateForm_Md5error>
+
+	  <!--授权窗体-->
+	  <License_LicenseStatus>your license status</License_LicenseStatus>
+	  <INF_EDITPROFILE>Edit Profile</INF_EDITPROFILE>
+	  <INF_INSTALL>Install</INF_INSTALL>
+	  <INF_Renew>Renew</INF_Renew>
+	  <LicenseType_Valid>Valid</LicenseType_Valid>
+    <LicenseType_Invalid>Invalid</LicenseType_Invalid>
+	  <LicenseType_Trial>Trial</LicenseType_Trial>
+    <INF_BUY>Learn More</INF_BUY>
+	  <INF_MYACCOUNT>My Account</INF_MYACCOUNT>
+    
+    <!--卸载窗体-->
+    <INF_UNINSTALL>Uninstall {0}</INF_UNINSTALL>
+    
+  </Strings>
+
+  <Forms>
+    <LicenseStatusPage>
+      <lbTrialDescn Text="Click here to activate if it's still a trial version after purchase." />
+    </LicenseStatusPage>
+    <LicenseStateForm Text="My Account"/>
+    <AppRecommendListItem>
+	  <lbMoreApps Text="More Apps" />
+      <btnAppInstall Text="Install" />
+    </AppRecommendListItem>
+    <ContextMenuControl>
+      <tsSwitchAccounts Text="Switch accounts" />
+      <tsLogout Text="Sign out" />
+    </ContextMenuControl>
+    <LoginFailPage>
+      <lbTitle Text="Sorry,Sign in failed." />
+      <btnReLogin Text="Try again" />
+      <linkHelp Text="Send feedback to Wondershare Support, or look for &lt;a&gt;online support&lt;/a&gt;" />
+    </LoginFailPage>
+    <NewLoginForm Text="Sign In or Register">
+      <btnClose ToolTip="Close" />
+      <lbServiceTip Text="Exclusive access to leading software &amp; preferred service" />
+    </NewLoginForm>
+    <NewLoginPage>
+      <btnSkip Text="Skip and use now" />
+      <lbLoginTip Text="Sign in with the password or registration code" />
+      <lbLoginOther Text="&lt;a&gt;Sign up&lt;/a&gt;   Or login with" />
+      <btnRegister Text="Sign up now" />
+      <btnSign Text="Sign In or Register" />
+      <llbForgot Text="Forgot Password" />
+      <tbPassword PlaceHolderText="Password / Registration Code" />
+      <tbEmail PlaceHolderText="Email" />
+      <lbUsePassport Text="If you have not created an account, you can alternatively login with one of the accounts below to try out the free version." />
+      <lbDescription Text="Sign in with purchased account to register your software. Alternatively you can register the application(s) by using your email and registration code.&lt;a&gt;&lt;/a&gt;" />
+      <lbRegIntroduce Text="New here?" />
+      <lbLoginIntroduce Text="Access all applications and services with one Wondershare Passport." />
+    </NewLoginPage>
+    <LoginProcessingPage>
+      <lbLoging Text="Signing in ..." />
+    </LoginProcessingPage>
+    <LoginSuccessPage>
+      <lbIntroduce Text="Need a few seconds, please later!" />
+    </LoginSuccessPage>
+    <EditProfilePage>
+      <lbEmailIntroduce Text="Email:" />
+      <lbNameIntroduce Text="Name:" />
+	  <lbPhotoIntroduce Text="Profile Photo:" />
+      <btnSelectImage Text="Choose a photo" />
+      <lbImageIntroduce Text=".jpg,.gif or .png.  Max file size 1Mb" />
+      <btnSave Text="Confirm" />
+	  <btnCancel Text="Cancel" />
+	  <btnBack Text="Edit Profile" />
+    </EditProfilePage>
+	  <EditProfileFailPage>
+	    <btnBack Text="Edit Profile" />
+	    <btnClose Text="Close" />
+	  </EditProfileFailPage>
+    <EditProfileSuccessPage>
+      <lbSuccessInfo Text="Profile modified successfully, thanks you! " />
+      <btnClose Text="Close"/>
+      <btnBack Text="Edit Profile" />
+    </EditProfileSuccessPage>
+	<InstallAppsPage>
+	  <lbFailDesc Text="Installation failed, please try to reinstall." />
+	  <lbSuccessDesc Text="Installation complete!" />
+	  <btnRun Text="Run" />
+	  <btnClose Text="Close" />
+	</InstallAppsPage>
+    <NoUserHeaderControl>
+      <linkLogin Text="Welcome, &lt;A&gt;sign in&lt;/A&gt;." />
+    </NoUserHeaderControl>
+    <NewRegisterPage>
+      <lbSignUpTip Text="Sign up"/>
+      <linkRegIntroduce Text="Already have an account? &lt;a&gt;Sign in&lt;/a&gt;" />
+      <lbUsePassport Text="Why do I need the passport?" />
+      <lbDescription Text="1.  Enjoy special Member features &#xD;&#xA;2.  Preferred customer service &amp; technical support&#xD;&#xA;3.  Manage your account permissions &amp; product subscriptions" />
+      <tbEmail PlaceHolderText="Email" />
+      <tbPassword PlaceHolderText="Password" />
+      <tbPassword2 PlaceHolderText="Repeat the password" />
+      <btnSignup Text="Sign up" />
+      <linkPrivacyPolicy Text="I've read and agree to the &lt;a href=&quot;terms&quot;&gt;Terms of Use&lt;/a&gt; and &lt;a href=&quot;privacy&quot;&gt;Privacy Policy&lt;/a&gt;" />
+      <lbLoginIntroduce Text="Access all applications and services with one Wondershare Passport." />
+      <lbIntroduce Text="Need a few seconds, please later!" />
+      <linkHelp Text="If the issue is still hanging, please &lt;a&gt;contact Support&lt;/a&gt;." />
+      <btnReSignup Text="Try again" />
+      <lbTitle Text="Sorry, sign up failed." />
+      <labProcessing Text="Signing up ..." />
+      <labProcessingIntroduce Text="Need a few seconds, please later!" />
+    </NewRegisterPage>
+    
+    <!--权限列表-->
+    <LicenseControl>
+      <btnPay Text="Renew" />
+    </LicenseControl>
+    <LicenseListPage>
+      <lbIntroduce Text="License is empty" />
+      <btnAppsolution Text="Search more applications" />
+    </LicenseListPage>
+    <LicenseRecommendItemControl>
+      <btnPay Text="Learn More" />
+    </LicenseRecommendItemControl>
+    <LicenseSeparatorControl>
+      <lbIntroduce Text="No features purchased yet." />
+      <btnAppsolution Text="Search more applications" />
+    </LicenseSeparatorControl>
+
+    <!--购买界面-->
+    <PurchaseForm>
+      <btnClose ToolTip="Close" />
+    </PurchaseForm>
+    <PurchaseErrorPage>
+      <lbIntroduce Text="This is a paid feature. Please purchase to use. " />
+      <linkErrorText Text="Sorry … Loading Failed." />
+      <btnRetry Text="Retry" />
+    </PurchaseErrorPage>
+    <PurchasePage>
+      <lbIntroduce Text="This is a paid feature. Please purchase to use. " />
+      <btnPayPal Text="Checkout with " />
+      <btnCreditCard Text="Checkout with Credit Card" />
+      <linkLearnMore Text="Learn More &gt;&gt;" />
+      <linkSkip Text="Skip and use now" />
+    </PurchasePage>
+    <PurchaseResultPage>
+      <btnConfirm Text="Yes, I have" />
+      <btnPayAgain Text="No, I need to try again" />
+      <lbIntroduce Text="Your order was sucessfully submitted" />
+      <lbConfirmIntroude Text="Please complete your payment via the browser." />
+      <lbSuccessIntroduce Text="Sign into your account using the information below" />
+      <lbSuccessTitle Text="Congratulations! Your order has been completed!" />
+      <btnFindMoreApps Text="Search more applications" />
+      <btnViewLicence Text="Close" />
+      <lbFailIntroduce Text="Please confirm if your payment was successful on your end." />
+      <lbFailTitle Text="Unfortunately your payment was not received. " />
+      <btnPaymentFailed Text="No, I need to try again" />
+      <btnReConfirm Text="Yes, it was" />
+      <linkSupport Text="If you are still having problems, &lt;a&gt;contact our support team for assistance&lt;/a&gt;." />
+      <!--<btnBack Text="Back" />-->
+      <lbConfirmButtontIntroduce Text="Have you succesfully completed the purchase?" />
+      <lbSigned Text="We have signed up a Wondershare Passport for you" />
+      <lbEmailIntroduct Text="Account" />
+      <lbPasswordIntroduce Text="Password" />
+      <lbPurchasedIntroduce Text="Purchased Apps" />
+    </PurchaseResultPage>
+    <OrderItemControl>
+      <btnInstall Text="Install" />
+      <lbInstallIntroduce Text="You will need to install the software first to access its functionality." />
+    </OrderItemControl>
+    <PurchaseHintForm>
+      <btnBuynow Text="Learn More" />
+      <btnLaunch Text="Launch feature now" />
+      <btnTryAgain Text="Try Again" />
+      <linkSignin Text="Already a  member?  &lt;a&gt;Sign in now&lt;/a&gt;" />
+      <linkVersion Text="Purchase Required" />
+      <lbErrorTitle Text="Failed" />
+      <lbSuccessTitle Text="Feature activated!" />
+    </PurchaseHintForm>
+    <PurchaseFeaturePage>
+      <linkSkip Text="Continue Trial" />
+      <btnBuynow Text="Purchase Feature" />
+      <linkSignin Text="Already purchased? &lt;a&gt;Sign in now&lt;/a&gt;" />
+    </PurchaseFeaturePage>
+
+    <UpdateForm Text="Upgrade">
+      <lbNotify Text="A new version is available. Would you like to update now?" />
+      <lbWhatNew Text="What's new:" />
+      <btnSkip Text="Don't remind again" />
+      <btnUpdate Text="Update Now" />
+      <btnClose Text="Remind me Later" />
+      <lblProgressMsg Text="Check for Updates" />
+      <lblInformation Text="The current version is the latest version." />
+      <lbFailed Text="Sorry, update failed." />
+      <lbErrorTips Text="Username or password is invalid" />
+      <btnRetry Text="Retry" />
+      <linkHelp Text="Send feedback to Wondershare Support, or look for &lt;a&gt;online support&lt;/a&gt;" />
+      <linkShow Text="The history version you have not updated to." />
+    </UpdateForm>
+    <WAFUpdateForm>
+      <btnUpdate Text="Update Now"  />
+      <lbNotify Text="A new version of Wondershare Passport is available." />
+      <lbWhatNew Text="Tips:" />
+      <textIntro Text="Wondershare Passport is an application to manage your account &amp; products.Plezse ensure that you have the latest version as recommended." />
+    </WAFUpdateForm>
+    <FeedbackForm Text="Feedback">
+      <tbEmail PlaceHolderText="The email you use for receive a reply" />
+      <tbDescription PlaceHolderText="Describe your problem in details so that we can help you better, such as error message, screenshot, device information, etc." />
+      <btnSubmit Text="Submit" />
+      <btnAddimages Text="Add image" />
+      <linkHelp Text="Send feedback to Wondershare Support, or search our &lt;a&gt;online support&lt;/a&gt;" />
+      <lbLogIntoduce Text="Attach the log file (check the box to send it automatically)" />
+      <lbInstructions Text="Message received,our support team will get back to you as soon as possible,thank you!" />
+      <lbError Text="Oops, submission failed!" />
+      <btnReSubmit Text="Try again" />
+      <linkSupport Text="If the issue is still hanging, please &lt;a&gt;contact Support&lt;/a&gt;." />
+    </FeedbackForm>
+    <ActivityHintForm>
+      <cbShow Text="Don't remind again" />
+    </ActivityHintForm>
+    <InstallAppsForm Text="Install App" />
+</Forms>
+</LanguageResource>

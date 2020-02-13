@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="ImageBigLock">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="212" Top="493" Width="70" Height="70" />
+    </Part>
+  </Item>
+  <Item Name="ImageInfo">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="287" Top="493" Width="70" Height="70" />
+    </Part>
+  </Item>
+  <Item Name="PanelFrame">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="252" Top="360" Width="124" Height="124">
+        <Margins Left="61" Top="61" Right="62" Bottom="62" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="ImageExclamation">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="206" Top="463" Width="21" Height="21" />
+    </Part>
+  </Item>
+  <Item Name="ImageLicense">
+    <Part id="0" Name="FrameValid" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <Font Color="0xff00bb79" />
+      <State Left="537" Top="660" Width="15" Height="15">
+        <Margins Left="6" Top="6" Right="6" Bottom="6" />
+      </State>
+    </Part>
+    <Part id="1" Name="FrameInValid" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <Font Color="0xff505af7" />
+      <State Left="537" Top="675" Width="15" Height="15">
+        <Margins Left="6" Top="5" Right="6" Bottom="5" />
+      </State>
+    </Part>
+    <Part id="2" Name="FrameTrail" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="537" Top="690" Width="15" Height="15">
+        <Margins Left="6" Top="6" Right="6" Bottom="6" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="ButtonFaq">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <Font Color="clWhite" />
+      <State Left="86" Top="782" Width="57" Height="21">
+        <Margins Left="28" Top="10" Right="28" Bottom="10" />
+      </State>
+      <State Left="143" Top="782" Width="57" Height="21">
+        <Margins Left="28" Top="10" Right="28" Bottom="10" />
+      </State>
+      <State Left="200" Top="782" Width="57" Height="21">
+        <Margins Left="28" Top="10" Right="28" Bottom="10" />
+      </State>
+      <State Left="257" Top="782" Width="57" Height="21">
+        <Margins Left="28" Top="10" Right="28" Bottom="10" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="ButtonInstall">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="449" Top="650" Width="15" Height="17">
+        <Margins Left="7" Top="8" Right="7" Bottom="8" />
+      </State>
+      <State Left="464" Top="650" Width="15" Height="17">
+        <Margins Left="7" Top="8" Right="7" Bottom="8" />
+      </State>
+      <State Left="479" Top="650" Width="15" Height="17">
+        <Margins Left="7" Top="8" Right="7" Bottom="8" />
+      </State>
+      <State Left="494" Top="650" Width="15" Height="17">
+        <Margins Left="7" Top="8" Right="7" Bottom="8" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="WebForm">
+    <Part id="0" Name="Form" Style="1" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <Region type="Auto" />
+      <Margins Scale="False" Left="5" Top="28" Right="5" Bottom="5" />
+      <State Left="80" Top="100" Width="98" Height="96">
+        <Margins Left="48" Top="47" Right="49" Bottom="48" />
+      </State>
+      <State Left="80" Top="100" Width="98" Height="96">
+        <Margins Left="48" Top="47" Right="49" Bottom="48" />
+      </State>
+    </Part>
+    <Part id="1" Name="Caption">
+      <Position RelPos="Top" X="23" Y="20" X2="20" Height="16" />
+      <State Left="0" Top="0" Width="0" Height="0">
+        <Font Size="9" Color="0xff454545" Style="Bold" />
+      </State>
+      <State Left="0" Top="0" Width="0" Height="0">
+        <Font Size="9" Color="0xff454545" Style="Bold" />
+      </State>
+    </Part>
+    <Part id="2" Name="Icon">
+      <Position RelPos="TopLeft" Scale="False" X="8" Y="8" Width="16" Height="16" />
+    </Part>
+    <Part id="3" Name="RestoreButton" TransparentMode="Alpha">
+      <Position RelPos="TopRight" Scale="False" X="52" Y="7" Width="34" Height="18" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="4" Name="MinButton" TransparentMode="Alpha">
+      <Position RelPos="TopRight" Scale="False" X="86" Y="7" Width="34" Height="18" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="5" Name="MaxButton" TransparentMode="Alpha">
+      <Position RelPos="TopRight" Scale="False" X="52" Y="7" Width="34" Height="18" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="6" Name="CloseButton" FillMode="center" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <Position RelPos="TopRight" X="20" Y="20" Width="18" Height="19" />
+      <State Left="90" Top="454" Width="18" Height="19" />
+      <State Left="108" Top="454" Width="18" Height="19" />
+      <State Left="126" Top="454" Width="18" Height="19" />
+      <State Left="144" Top="454" Width="18" Height="19" />
+    </Part>
+  </Item>
+</Skin>

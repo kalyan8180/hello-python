@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<LanguageResource Id="zh-TW" Name="Chinese" LocaleName="繁體中文" Version="1.1" LangID="0x0404" CodePage="950">
+  <Default>
+    <Font Name="Tahoma" Size="9" Color="Black"/>
+    <FontMapping>
+	    <Item From="微软雅黑" To="Tahoma" FromSize="8" ToSize="9" />
+	    <Item From="宋体" To="Tahoma" FromSize="8" ToSize="9" />
+	  </FontMapping>
+  </Default>
+
+  <Strings>
+
+    <!--消息框按扭文字-->
+    <INF_Yes>是</INF_Yes>
+    <INF_No>否</INF_No>
+    <INF_OK>確認</INF_OK>
+    <INF_Cancel>取消</INF_Cancel>
+    <INF_Retry>重試</INF_Retry>
+    <INF_Information>提示</INF_Information>
+    <INF_Error>錯誤</INF_Error>
+
+    <!--通用复用-->
+    <INF_DownCompleted>下載已完成。不過程式正在執行中。請按一下 OK 終止程式並安裝新版本。</INF_DownCompleted>
+    <INF_SystemErrorInfo>發生系統未知錯誤</INF_SystemErrorInfo>
+    <INF_ImageFilter>全部影像</INF_ImageFilter>
+    <INF_InternetFailed>網際網路連線失敗，請檢查連線然後再試一次</INF_InternetFailed>
+    <INF_UnusualInfo>程式異常，請再試一次</INF_UnusualInfo>
+
+    <!--主界面-->
+    <INF_Hi>您好</INF_Hi>
+    <!--AppSolution-->
+    <INF_Installing>正在安裝</INF_Installing>
+    <INF_SystemException>系統錯誤</INF_SystemException>
+    <INF_InstallationFailed>安裝失敗</INF_InstallationFailed>
+    <AppItemControl_WhatNew>最新消息？</AppItemControl_WhatNew>
+    <AppItemControl_ViewDetail>查看詳情</AppItemControl_ViewDetail>
+    <AppItemControl_NewVersion>有新版本可用. ({0})</AppItemControl_NewVersion>
+    <AppSeparatorControl_Installed>已經安裝的應用</AppSeparatorControl_Installed>
+    <AppSeparatorControl_NewApps>新應用</AppSeparatorControl_NewApps>
+    <!--修改个人资料-->
+    <INF_NameNull>請輸入名稱</INF_NameNull>
+    <INF_ProfileSuccess>設定檔修改成功。</INF_ProfileSuccess>
+    <!--LicenseType-->
+    <License_Status>授權狀態:</License_Status>
+    <LicenseType_Number>Times are up</LicenseType_Number>
+    <LicenseType_Devices>Devices are up</LicenseType_Devices>
+    <LicenseType_Period>過期</LicenseType_Period>
+    <License_HasIntroduce>已經購買的功能</License_HasIntroduce>
+    <License_RecommendIntroduce>您可能會需要的功能</License_RecommendIntroduce>
+
+    <!--购买界面-->
+    <INF_Purchased>已購買</INF_Purchased>
+    <INF_Used>已使用</INF_Used>
+    <INF_Remaining>剩餘</INF_Remaining>
+    <INF_Unknown>Unknown</INF_Unknown>
+    <INF_Time> 次數</INF_Time>
+    <INF_Day> 天數</INF_Day>
+    <INF_Device> 設備烽</INF_Device>
+    <INF_Computer> 電腦數</INF_Computer>
+    <INF_Month> 月</INF_Month>
+    <INF_Quarter> 季</INF_Quarter>
+    <INF_Week> 周</INF_Week>
+    <INF_Year> 年</INF_Year>
+    <INF_LifeTime>存留期</INF_LifeTime>
+    <INF_ValidUntil>有效期限</INF_ValidUntil>
+    <INF_YouSave>您省下</INF_YouSave>
+    <INF_Total>總價</INF_Total>
+    <INF_Close>關閉</INF_Close>
+    <INF_ErrorCode>錯誤代碼</INF_ErrorCode>
+    <INF_Facebook>Facebook賬號</INF_Facebook>
+    <INF_Twitter>Twitter賬號</INF_Twitter>
+    <INF_Google>Google賬號</INF_Google>
+
+    <PurchasePage_BuyPersons>{0}人已經購買</PurchasePage_BuyPersons>
+    <PurchaseHintForm_lbVersionIntroduce_Trail>您只能使用部分功能，需要使用完整功能，請在網際網路連線狀態下開通高級權限。</PurchaseHintForm_lbVersionIntroduce_Trail>
+    <PurchaseHintForm_LoadError>抱歉 … 載入失敗</PurchaseHintForm_LoadError>
+    <PurchaseResultPage_Function>功能</PurchaseResultPage_Function>
+    <PurchaseResultPage_License>授權</PurchaseResultPage_License>
+    <PurchaseResultPage_Question>關閉窗口之後，當前訂單將會被取消，確定要取消訂單嗎？</PurchaseResultPage_Question>
+    <PurchaseForm_Title>安全支付</PurchaseForm_Title>
+
+    <!--邮箱验证-->
+    <INF_EmailNull>請輸入您的電子郵件</INF_EmailNull>
+    <INF_EmailValid>請輸入有效的電子郵件地址</INF_EmailValid>
+    <INF_EmailLength>您輸入的電子郵件地址太長，請再試一次</INF_EmailLength>
+
+    <!--登录窗体-->
+    <LoginAuthorizationFailed>認證失敗，請再試一次。</LoginAuthorizationFailed>
+    <LoginRequiredPassword>請輸入密碼</LoginRequiredPassword>
+    <LoginPasswordLength>密碼不得少於6個字元</LoginPasswordLength>
+    <RegPasswordLength>密碼不得少於6個字元或多於16個字元</RegPasswordLength>
+    <INF_Welcome>歡迎你, {0}</INF_Welcome>
+    <LogoutConfirm>退出後你將無法激活軟件，需要再次登錄才能激活。是否退出？是 否退出後你將無法激活軟件，需要再次登錄才能激活。是否退出？</LogoutConfirm>
+
+    <!--注册窗体-->
+    <RegisterPagePrivacyPolicy>您必須閱讀並同意使用條款與隱私權原則</RegisterPagePrivacyPolicy>
+    <RegisterPagePasswordSimple>密碼難度太簡單</RegisterPagePasswordSimple>
+    <RegisterPagePasswordRepeat>重複輸入密碼</RegisterPagePasswordRepeat>
+    <RegisterPagePasswordMatch>確認密碼與密碼不相符，請再試一次</RegisterPagePasswordMatch>
+    <RegisterPagePasswordExists>電子郵件已存在，請 &lt;a&gt;登入&lt;/a&gt;</RegisterPagePasswordExists>
+
+    <!--FeedBack-->
+    <RegisterPageEmailError>請輸入正確的電子郵件</RegisterPageEmailError>
+    <RegisterPageContentLess>內容不得少於10個字元</RegisterPageContentLess>
+    <RegisterPageContentNull>請輸入您的意見反應</RegisterPageContentNull>
+
+    <!--下载进度-->
+    <Progress_Downloading>下載中，請稍候…</Progress_Downloading>
+    <Progress_Installing>安裝中，請稍候…</Progress_Installing>
+    <Progress_Finished>已完成</Progress_Finished>
+    <UpdateForm_Notify>{0}有新版本可用</UpdateForm_Notify>
+    <UpdateForm_PackInfo>版本:{0}  |  大小:{1}  |  發佈時間:{2}</UpdateForm_PackInfo>
+    <UpdateForm_Md5error>更新檔的MD5校驗和錯誤</UpdateForm_Md5error>
+	
+	  <!--授权窗体-->
+	  <License_LicenseStatus>你的授權狀態是</License_LicenseStatus>
+	  <INF_EDITPROFILE>編輯個人資料</INF_EDITPROFILE>
+	  <INF_INSTALL>安裝</INF_INSTALL>
+	  <INF_Renew>續訂</INF_Renew>
+	  <LicenseType_Valid>有效</LicenseType_Valid>
+    <LicenseType_Invalid>無效</LicenseType_Invalid>
+	  <LicenseType_Trial>試用</LicenseType_Trial>
+    <INF_BUY>進一步了解</INF_BUY>
+	  <INF_MYACCOUNT>我的賬號</INF_MYACCOUNT>
+
+    <!--卸载窗体-->
+    <INF_UNINSTALL>卸載 {0}</INF_UNINSTALL>
+
+  </Strings>
+
+  <Forms>
+    <LicenseStatusPage>
+      <lbTrialDescn Text="如果你已經購買了產品，請點擊刷新按鈕來更新你的許可權 " />
+    </LicenseStatusPage>
+    <LicenseStateForm Text="我的賬號"/>
+    <AppRecommendListItem>
+	  <lbMoreApps Text="更多應用" />
+      <btnAppInstall Text="安裝" />
+    </AppRecommendListItem>
+    <ContextMenuControl>
+      <tsSwitchAccounts Text="切換帳戶" />
+      <tsLogout Text="登出" />
+    </ContextMenuControl>
+    <LoginFailPage>
+      <lbTitle Text="很抱歉，登入失敗。" />
+      <btnReLogin Text="再試一次" />
+      <linkHelp Text="傳送意見反應至 Wondershare Support，或尋找&lt;a&gt;線上支援&lt;/a&gt;" />
+    </LoginFailPage>
+    <NewLoginForm Text="登錄/激活">
+      <btnClose ToolTip="關閉" />
+      <lbServiceTip Text="一個賬號暢享所有應用和服務" />
+    </NewLoginForm>
+    <NewLoginPage>
+      <btnSkip Text="略過並直接使用" />
+      <lbLoginTip Text="登錄密碼或註冊碼" />
+      <lbLoginOther Text="&lt;a&gt;立即註冊&lt;/a&gt; 或使用" />
+      <btnRegister Text="立即註冊" />
+      <btnSign Text="登錄/激活" />
+      <llbForgot Text="忘記密碼" />
+      <tbPassword PlaceHolderText="密碼登入 / 註冊碼" />
+      <tbEmail PlaceHolderText="電子郵件" />
+      <lbUsePassport Text="還未創建賬號，可註冊或用第三方賬號登錄試用軟件。" />
+      <lbDescription Text="用購買的賬號登錄或用購買的郵箱/註冊碼登錄可激活軟件功能。&lt;a&gt;&lt;/a&gt;" />
+      <lbRegIntroduce Text="新用戶？" />
+      <lbLoginIntroduce Text="Access all applications and services with one Wondershare Passport." />
+    </NewLoginPage>
+    <LoginProcessingPage>
+      <lbLoging Text="登入中..." />
+    </LoginProcessingPage>
+    <LoginSuccessPage>
+      <lbIntroduce Text="Need a few seconds, please later!" />
+    </LoginSuccessPage>
+    <EditProfilePage>
+      <lbEmailIntroduce Text="電子郵件:" />
+      <lbNameIntroduce Text="姓名:" />
+	  <lbPhotoIntroduce Text="編輯照片:" />
+      <btnSelectImage Text="選擇相片" />
+      <lbImageIntroduce Text=".jpg, .gif or .png. 文件需小於1Mb" />
+      <btnSave Text="確認" />
+	  <btnCancel Text="取消" />
+	  <btnBack Text="編輯個人資料" />
+    </EditProfilePage>
+	  <EditProfileFailPage>
+	    <btnBack Text="編輯個人資料" />
+	    <btnClose Text="關閉" />
+	  </EditProfileFailPage>
+    <EditProfileSuccessPage>
+      <lbSuccessInfo Text="資料修改成功。" />
+      <btnClose Text="關閉" />
+      <btnBack Text="編輯個人資料" />
+    </EditProfileSuccessPage>
+	<InstallAppsPage>
+	  <lbFailDesc Text="安裝遇到問題，請重新安裝。" />
+	  <lbSuccessDesc Text="安裝成功！" />
+	  <btnRun Text="執行" />
+	  <btnClose Text="關閉" />
+	</InstallAppsPage>
+    <NoUserHeaderControl>
+      <linkLogin Text="歡迎你，&lt;A&gt;登入&lt;/A&gt;。" />
+    </NoUserHeaderControl>
+    <NewRegisterPage>
+      <lbSignUpTip Text="註冊"/>
+      <linkRegIntroduce Text="已有帳戶？ &lt;a&gt;登入&lt;/a&gt;" />
+      <lbUsePassport Text="為什麼需要 Passport？" />
+      <lbDescription Text="1.  享受更多會員專屬功能 &#xD;&#xA;2.  VIP 客戶服務技術支援&#xD;&#xA;3.  管理您的權限與服務" />
+      <tbEmail PlaceHolderText="電子郵件" />
+      <tbPassword PlaceHolderText="密碼登入" />
+      <tbPassword2 PlaceHolderText="重複輸入密碼" />
+      <btnSignup Text="註冊" />
+      <linkPrivacyPolicy Text="我已經讀過並同意 &lt;a href=&quot;terms&quot;&gt;使用條款&lt;/a&gt; 與 &lt;a href=&quot;privacy&quot;&gt;隱私權原則&lt;/a&gt;" />
+      <lbLoginIntroduce Text="Access all applications and services with one Wondershare Passport." />
+      <lbIntroduce Text="Need a few seconds, please later!" />
+      <linkHelp Text="如果一直發生問題，請&lt;a&gt;聯絡客服部門&lt;/a&gt;。" />
+      <btnReSignup Text="再試一次" />
+      <lbTitle Text="很抱歉，註冊失敗。" />
+      <labProcessing Text="註冊中…" />
+      <labProcessingIntroduce Text="Need a few seconds, please later!" />
+    </NewRegisterPage>
+    
+    <!--权限列表-->
+    <LicenseControl>
+      <btnPay Text="續訂" />
+    </LicenseControl>
+    <LicenseListPage>
+      <lbIntroduce Text="授權資訊為空白" />
+      <btnAppsolution Text="查看更多應用程式" />
+    </LicenseListPage>
+    <LicenseRecommendItemControl>
+      <btnPay Text="進一步了解" />
+    </LicenseRecommendItemControl>
+    <LicenseSeparatorControl>
+      <lbIntroduce Text="您還沒有購買任何功能。" />
+      <btnAppsolution Text="查看更多應用程式" />
+    </LicenseSeparatorControl>
+
+    <!--购买界面-->
+    <PurchaseForm>
+      <btnClose ToolTip="關閉" />
+    </PurchaseForm>
+    <PurchaseErrorPage>
+      <lbIntroduce Text="這是付費功能。 請先購買再使用。 " />
+      <linkErrorText Text="抱歉 … 載入失敗" />
+      <btnRetry Text="重試" />
+    </PurchaseErrorPage>
+    <PurchasePage>
+      <lbIntroduce Text="這是付費功能。 請先購買再使用。 " />
+      <btnPayPal Text="使用 Paypal 結帳" />
+      <btnCreditCard Text="使用信用卡結帳" />
+      <linkLearnMore Text="進一步了解 &gt;&gt;" />
+      <linkSkip Text="略過並直接使用" />
+    </PurchasePage>
+    <PurchaseResultPage>
+      <btnConfirm Text="確認付款" />
+      <btnPayAgain Text="重新結帳" />
+      <lbIntroduce Text="您的訂單已成功提交" />
+      <lbConfirmIntroude Text="請透過安全的瀏覽器完成付款。" />
+      <lbSuccessIntroduce Text="現在您即可享用購買的應用程式、功能及服務。" />
+      <lbSuccessTitle Text="恭喜！ 付款已完成。" />
+      <btnFindMoreApps Text="查看更多應用程式" />
+      <btnViewLicence Text="关闭" />
+      <lbFailIntroduce Text="請確認已成功完成付款。" />
+      <lbFailTitle Text="未收到付款" />
+      <btnPaymentFailed Text="重新結帳" />
+      <btnReConfirm Text="確認付款" />
+      <linkSupport Text="取得支援" />
+      <!--<btnBack Text="返回" />-->
+      <lbConfirmButtontIntroduce Text="如果您已經支付了，請點擊以下支付確認按鈕。" />
+      <lbSigned Text="系統已經為您創建了一個萬興通行證" />
+      <lbEmailIntroduct Text="賬號" />
+      <lbPasswordIntroduce Text="密碼" />
+      <lbPurchasedIntroduce Text="購買的功能" />
+    </PurchaseResultPage>
+    <OrderItemControl>
+      <btnInstall Text="安裝" />
+      <lbInstallIntroduce Text="使用功能之前请先安装。" />
+    </OrderItemControl>
+    <PurchaseHintForm>
+      <btnBuynow Text="進一步了解" />
+      <btnLaunch Text="立即享用功能" />
+      <btnTryAgain Text="再試一次" />
+      <linkSignin Text="已購買？  請&lt;a&gt;立即登入&lt;/a&gt;" />
+      <linkVersion Text="當前為試用權限。" />
+      <lbErrorTitle Text="連線失敗" />
+      <lbSuccessTitle Text="已更新高級權限。" />
+    </PurchaseHintForm>
+    <PurchaseFeaturePage>
+      <linkSkip Text="繼續試用" />
+      <btnBuynow Text="購買功能" />
+      <linkSignin Text="已購買？ 請&lt;a&gt;立即登入&lt;/a&gt;" />
+    </PurchaseFeaturePage>
+
+    <UpdateForm Text="升級">
+      <lbNotify Text="有新版本可用。 你是否要立即更新？" />
+      <lbWhatNew Text="最新消息:" />
+      <btnSkip Text="不要再提醒" />
+      <btnUpdate Text="立即更新" />
+      <btnClose Text="稍後提醒" />
+      <lblProgressMsg Text="查看是否有更新" />
+      <lblInformation Text="目前的版本是最新版本。" />
+      <lbFailed Text="很抱歉，更新失敗。" />
+      <lbErrorTips Text="Username or password is invalid" />
+      <btnRetry Text="Retry" />
+      <linkHelp Text="傳送意見反應至 Wondershare Support，或尋找&lt;a&gt;線上支援&lt;/a&gt;" />
+      <linkShow Text="您未升級的歷史版本" />
+    </UpdateForm>
+    <WAFUpdateForm>
+      <btnUpdate Text="立即更新"  />
+      <lbNotify Text="全新版本的 Wondershare Passport 已可使用。&#xD;&#xA;&#xD;&#xA;" />
+      <lbWhatNew Text="秘訣:" />
+      <textIntro Text="Wondershare Passport 是一套可管理您帳戶與產品的應用程式。請確定您的產品是建議的最新版本。" />
+    </WAFUpdateForm>
+    <FeedbackForm Text="意見反應">
+      <tbEmail PlaceHolderText="您使用的電子郵件會收到回覆" />
+      <tbDescription PlaceHolderText="為更好地幫助您解決問題，請詳細描述您遇到的問題，例如報錯，截圖以及設備資訊等。" />
+      <btnSubmit Text="提交" />
+      <btnAddimages Text="新增影像" />
+      <linkHelp Text="傳送意見反應至 Wondershare Support，或尋找&lt;a&gt;線上支援&lt;/a&gt;" />
+      <lbLogIntoduce Text="附加記錄檔 (勾選方塊即可自動傳送)" />
+      <lbInstructions Text="已收到你的建議，我們的支援小組會盡快回覆，謝謝你！" />
+      <lbError Text="糟糕，提交失敗！" />
+      <btnReSubmit Text="再試一次" />
+      <linkSupport Text="如果一直發生問題，請&lt;a&gt;聯絡客服部門&lt;/a&gt;。" />
+    </FeedbackForm>
+    <ActivityHintForm>
+      <cbShow Text="不再提醒" />
+    </ActivityHintForm>
+    <InstallAppsForm Text="安裝App" />
+  </Forms>
+</LanguageResource>

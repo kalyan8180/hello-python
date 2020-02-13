@@ -1,0 +1,13 @@
+﻿Installing assembly 'C:\Program Files (x86)\Wondershare\MirrorGo\DriverInstall.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Program Files (x86)\Wondershare\MirrorGo\DriverInstall.exe
+   logfile = C:\Program Files (x86)\Wondershare\MirrorGo\DriverInstall.InstallLog
+Installing service WsDrvInst...
+Service WsDrvInst has been successfully installed.
+Creating EventLog source WsDrvInst in log Application...
+Committing assembly 'C:\Program Files (x86)\Wondershare\MirrorGo\DriverInstall.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Program Files (x86)\Wondershare\MirrorGo\DriverInstall.exe
+   logfile = C:\Program Files (x86)\Wondershare\MirrorGo\DriverInstall.InstallLog

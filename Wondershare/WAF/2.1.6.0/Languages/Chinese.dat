@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<LanguageResource Id="zh-CN" Name="Chinese" LocaleName="简体中文" Version="1.1" LangID="0x0804" CodePage="936">
+  <Default>
+    <Font Name="微软雅黑" Size="9" Color="Black"/>
+	<FontMapping>
+	  <Item From="Tahoma" To="微软雅黑" FailTo="宋体" FromSize="8" ToSize="9" />
+	</FontMapping>
+  </Default>
+  
+  <Strings>
+  
+    <!--消息框按扭文字-->
+    <INF_Yes>是</INF_Yes>
+    <INF_No>否</INF_No>
+    <INF_OK>确定</INF_OK>
+    <INF_Cancel>取消</INF_Cancel>
+    <INF_ReTry>重试</INF_ReTry>
+    <INF_Information>信息</INF_Information>
+    <INF_Error>错误</INF_Error>
+
+    <!--通用复用-->
+    <INF_DownCompleted>下载已完成，请关闭当前程序以完成更新。点击&quot;确认&quot;关闭当前程序。</INF_DownCompleted>
+    <INF_SystemErrorInfo>系统发生未知异常</INF_SystemErrorInfo>
+    <INF_ImageFilter>所有图片文件</INF_ImageFilter>
+    <INF_InternetFailed>网络连接失败，请检查网络然后重试</INF_InternetFailed>
+    <INF_UnusualInfo>程序发生异常，请重试</INF_UnusualInfo>
+
+    <!--主界面-->
+    <INF_Hi>你好</INF_Hi>
+    <!--AppSolution-->
+    <INF_Installing>正在安装</INF_Installing>
+    <INF_SystemException>系统错误</INF_SystemException>
+    <INF_InstallationFailed>安装失败</INF_InstallationFailed>
+    <AppItemControl_WhatNew>更新详情？</AppItemControl_WhatNew>
+    <AppItemControl_ViewDetail>查看详情</AppItemControl_ViewDetail>
+    <AppItemControl_NewVersion>您有一个新版本可以免费升级. ({0})</AppItemControl_NewVersion>
+    <AppSeparatorControl_Installed>已经安装的应用</AppSeparatorControl_Installed>
+    <AppSeparatorControl_NewApps>新应用</AppSeparatorControl_NewApps>
+    <!--修改个人资料-->
+    <INF_NameNull>请输入你的名字</INF_NameNull>
+    <INF_ProfileSuccess>资料已经修改成功，谢谢！</INF_ProfileSuccess>
+    <!--LicenseType-->
+    <License_Status>权限状态:</License_Status>
+    <LicenseType_Number>使用次数已超限</LicenseType_Number>
+    <LicenseType_Devices>设备使用次数已超限</LicenseType_Devices>
+    <LicenseType_Period>过期</LicenseType_Period>
+    <License_HasIntroduce>已经购买的功能</License_HasIntroduce>
+    <License_RecommendIntroduce>你可能会需要的功能</License_RecommendIntroduce>
+
+    <!--购买界面-->
+    <INF_Purchased>已购买</INF_Purchased>
+    <INF_Used>已使用</INF_Used>
+    <INF_Remaining>剩余</INF_Remaining>
+    <INF_Unknown>Unknown</INF_Unknown>
+    <INF_Time>次</INF_Time>
+    <INF_Day>天</INF_Day>
+    <INF_Device>设备</INF_Device>
+    <INF_Computer>电脑</INF_Computer>
+    <INF_Month>月</INF_Month>
+    <INF_Quarter>季</INF_Quarter>
+    <INF_Week>周</INF_Week>
+    <INF_Year>年</INF_Year>
+    <INF_LifeTime>无限期</INF_LifeTime>
+    <INF_ValidUntil>有效期至</INF_ValidUntil>
+    <INF_YouSave>节省了</INF_YouSave>
+    <INF_Total>总价</INF_Total>
+    <INF_Close>关闭</INF_Close>
+    <INF_ErrorCode>错误码</INF_ErrorCode>
+    <INF_Facebook>Facebook账号</INF_Facebook>
+    <INF_Twitter>Twitter账号</INF_Twitter>
+    <INF_Google>Google账号</INF_Google>
+
+    <PurchasePage_BuyPersons>{0}人已经购买</PurchasePage_BuyPersons>
+    <PurchaseHintForm_lbVersionIntroduce_Trail>您只能使用部分功能，需要使用完整功能，请开通会员权限。</PurchaseHintForm_lbVersionIntroduce_Trail>
+    <PurchaseHintForm_LoadError>抱歉，加载失败</PurchaseHintForm_LoadError>
+    <PurchaseResultPage_Function>Function</PurchaseResultPage_Function>
+    <PurchaseResultPage_License>功能</PurchaseResultPage_License>
+    <PurchaseResultPage_Question>关闭窗口之后当前订单将会被取消，确定要取消订单吗？</PurchaseResultPage_Question>
+    <PurchaseForm_Title>安全支付</PurchaseForm_Title>
+
+    <!--邮箱验证-->
+    <INF_EmailNull>请输入您的邮箱</INF_EmailNull>
+    <INF_EmailValid>您的邮箱格式不对</INF_EmailValid>
+    <INF_EmailLength>您输入的电子邮件地址太长，请再试一次</INF_EmailLength>
+
+    <!--登录窗体-->
+    <LoginAuthorizationFailed>授权失败，请重试。</LoginAuthorizationFailed>
+    <LoginRequiredPassword>请输入您的密码</LoginRequiredPassword>
+    <LoginPasswordLength>密码长度不能少于 6</LoginPasswordLength>
+    <RegPasswordLength>密码长度不能少于 6，大于 16</RegPasswordLength>
+    <INF_Welcome>欢迎, {0}</INF_Welcome>
+    <LogoutConfirm>退出后你将无法激活软件，需要再次登录才能激活。是否退出？</LogoutConfirm>
+
+    <!--注册窗体-->
+    <RegisterPagePrivacyPolicy>您必须阅读并同意使用说明和隐私策略</RegisterPagePrivacyPolicy>
+    <RegisterPagePasswordSimple>密码太简单了</RegisterPagePasswordSimple>
+    <RegisterPagePasswordRepeat>重新输入密码</RegisterPagePasswordRepeat>
+    <RegisterPagePasswordMatch>您两次输入的密码不一致，请重新输入</RegisterPagePasswordMatch>
+    <RegisterPagePasswordExists>邮箱已经存在, 请&lt;a&gt;登录&lt;/a&gt;</RegisterPagePasswordExists>
+
+    <!--FeedBack-->
+    <RegisterPageEmailError>请填写正确的邮箱</RegisterPageEmailError>
+    <RegisterPageContentLess>内容不能少于10个字</RegisterPageContentLess>
+    <RegisterPageContentNull>请输入问题反馈内容</RegisterPageContentNull>
+
+    <!--下载进度-->
+    <Progress_Downloading>正在下载，请稍候...</Progress_Downloading>
+    <Progress_Installing>正在安装，请稍候...</Progress_Installing>
+    <Progress_Finished>完成</Progress_Finished>
+    <UpdateForm_Notify>{0}有新版本可免费更新</UpdateForm_Notify>
+    <UpdateForm_PackInfo>版本:{0}  |  大小:{1}  |  发布时间:{2}</UpdateForm_PackInfo>
+    <UpdateForm_Md5error>更新MD5文件的校验错误</UpdateForm_Md5error>
+	
+	  <!--授权窗体-->
+	  <License_LicenseStatus>你的授权状态是</License_LicenseStatus>
+	  <INF_EDITPROFILE>编辑个人资料</INF_EDITPROFILE>
+	  <INF_INSTALL>安装</INF_INSTALL>	
+	  <INF_Renew>续费</INF_Renew>
+	  <LicenseType_Valid>有效</LicenseType_Valid>
+    <LicenseType_Invalid>无效</LicenseType_Invalid>	
+	  <LicenseType_Trial>试用</LicenseType_Trial>
+    <INF_BUY>了解详情</INF_BUY>
+	  <INF_MYACCOUNT>我的账号</INF_MYACCOUNT>
+
+    <!--卸载窗体-->
+    <INF_UNINSTALL>卸载 {0}</INF_UNINSTALL>
+
+  </Strings>
+
+  <Forms>
+    <LicenseStatusPage>
+      <lbTrialDescn Text="如果你已经购买了产品，请点击刷新按钮来更新你的权限 " />
+    </LicenseStatusPage>
+    <LicenseStateForm Text="我的账号"/>
+    <AppRecommendListItem>
+	  <lbMoreApps Text="更多应用" />
+      <btnAppInstall Text="安装" />
+    </AppRecommendListItem>
+    <ContextMenuControl>
+      <tsSwitchAccounts Text="切换帐号" />
+      <tsLogout Text="登出账号" />
+    </ContextMenuControl>
+    <LoginFailPage>
+      <lbTitle Text="抱歉，登录失败。" />
+      <btnReLogin Text="请重试" />
+      <linkHelp Text="给客服发送问题反馈，或者查找&lt;a&gt;在线帮助&lt;/a&gt;。" />
+    </LoginFailPage>
+    <NewLoginForm Text="登录/激活">
+      <btnClose ToolTip="关闭" />
+      <lbServiceTip Text="一个账号畅享所有应用和服务" />
+    </NewLoginForm>
+    <NewLoginPage>
+      <btnSkip Text="跳过直接使用" />
+      <lbLoginTip Text="登录密码或注册码" />
+      <lbLoginOther Text="&lt;a&gt;注册&lt;/a&gt; 或以其它帐号登录" />
+      <btnRegister Text="立即注册" />
+      <btnSign Text="登录/激活" />
+      <llbForgot Text="忘记密码" />
+      <tbPassword PlaceHolderText="密码 / 注册码" />
+      <tbEmail PlaceHolderText="邮箱" />
+      <lbUsePassport Text="还未创建账号，可注册或用第三方账号登录试用软件。" />
+      <lbDescription Text="用购买的账号登录或用购买的邮箱/注册码登录可激活软件功能。&lt;a&gt;&lt;/a&gt;" />
+      <lbRegIntroduce Text="还没有通行证？" />
+      <lbLoginIntroduce Text="需要一个万兴通行证才能访问所有应用程序和服务" />
+    </NewLoginPage>
+    <LoginProcessingPage>
+      <lbLoging Text="正在登录..." />
+    </LoginProcessingPage>
+    <LoginSuccessPage>
+      <lbIntroduce Text="需要几秒钟，请稍候!" />
+    </LoginSuccessPage>
+    <EditProfilePage>
+      <lbEmailIntroduce Text="邮箱:" />
+      <lbNameIntroduce Text="姓名:" />
+	  <lbPhotoIntroduce Text="编辑照片:" />
+      <btnSelectImage Text="选择图片" />
+      <lbImageIntroduce Text=".jpg, .gif or .png. 文件需小于1Mb" />
+      <btnSave Text="确认" />
+	  <btnCancel Text="取消" />
+	  <btnBack Text="编辑个人资料" />
+    </EditProfilePage>
+	  <EditProfileFailPage>
+	    <btnBack Text="編编辑个人资料" />
+	    <btnClose Text="关闭" />
+	  </EditProfileFailPage>
+    <EditProfileSuccessPage>
+      <lbSuccessInfo Text="资料修改成功。" />
+      <btnClose Text="关闭" />
+      <btnBack Text="编辑个人资料" />
+    </EditProfileSuccessPage>
+	<InstallAppsPage>
+	  <lbFailDesc Text="安装遇到问题，请重新安装。" />
+	  <lbSuccessDesc Text="安装成功！" />
+	  <btnRun Text="启动" />
+	  <btnClose Text="关闭" />
+	</InstallAppsPage>	
+    <NoUserHeaderControl>
+      <linkLogin Text="欢迎，&lt;A&gt;登录&lt;/A&gt;。" />
+    </NoUserHeaderControl>
+    <NewRegisterPage>
+      <lbSignUpTip Text="注册"/>
+      <linkRegIntroduce Text="已经有通行证？ &lt;a&gt;登录&lt;/a&gt;" />
+      <lbRegIntroduce Text="已经有通行证？" />
+      <lbUsePassport Text="为什么要通行证?" />
+      <lbDescription Text="1.  享受更多会员专属功能； &#xD;&#xA;2.  VIP客服提供技术支持；&#xD;&#xA;3.  管理您的权限和服务。" />
+      <tbEmail PlaceHolderText="邮箱" />
+      <tbPassword PlaceHolderText="密码" />
+      <tbPassword2 PlaceHolderText="再次输入密码" />
+      <btnSignup Text="注册" />
+      <linkPrivacyPolicy Text="我已经阅读并同意 &lt;a href=&quot;terms&quot;&gt;使用说明&lt;/a&gt; 和 &lt;a href=&quot;privacy&quot;&gt;隐私申明&lt;/a&gt;" />
+      <lbLoginIntroduce Text="需要一个万兴通行证才能访问所有应用程序和服务" />
+      <lbIntroduce Text="需要几秒钟，请稍候!" />
+      <linkHelp Text="如果问题依然未解决，请&lt;a&gt;联系客服&lt;/a&gt;。" />
+      <btnReSignup Text="请重试" />
+      <lbTitle Text="抱歉，注册失败。" />
+      <labProcessing Text="注册中..." />
+      <labProcessingIntroduce Text="需要几秒钟，请稍候!" />
+    </NewRegisterPage>
+
+    <!--权限列表-->
+    <LicenseControl>
+      <btnPay Text="续费" />
+    </LicenseControl>
+    <LicenseListPage>
+      <lbIntroduce Text="暂时未购买任何功能权限" />
+      <btnAppsolution Text="查找更多应用" />
+    </LicenseListPage>
+    <LicenseRecommendItemControl>
+      <btnPay Text="了解详情" />
+    </LicenseRecommendItemControl>
+    <LicenseSeparatorControl>
+      <lbIntroduce Text="您还没有购买过任何功能。" />
+      <btnAppsolution Text="查找更多应用" />
+    </LicenseSeparatorControl>
+
+    <!--购买界面-->
+    <PurchaseForm>
+      <btnClose ToolTip="关闭" />
+    </PurchaseForm>
+    <PurchaseErrorPage>
+      <lbIntroduce Text="抱歉！该功能仅限于付费功能才能使用，请升级会员权限之后使用。" />
+      <linkErrorText Text="抱歉，加载失败" />
+      <btnRetry Text="重试" />
+    </PurchaseErrorPage>
+    <PurchasePage>
+      <lbIntroduce Text="抱歉！该功能仅限于付费功能才能使用，请升级会员权限之后使用。" />
+      <btnPayPal Text="通过Paypal支付" />
+      <btnCreditCard Text="使用信用卡支付" />
+      <linkLearnMore Text="查看更多 &gt;&gt;" />
+      <linkSkip Text="继续试用" />
+    </PurchasePage>
+    <PurchaseResultPage>
+      <btnConfirm Text="确认支付完成" />
+      <btnPayAgain Text="重新支付" />
+      <lbIntroduce Text="您的订单已经提交成功" />
+      <lbConfirmIntroude Text="为了您的支付安全，请您在浏览器中完成支付。" />
+      <lbSuccessIntroduce Text="现在您可以尽情体验您所购买的应用和功能了" />
+      <lbSuccessTitle Text="您已支付成功" />
+      <btnFindMoreApps Text="查找更多应用" />
+      <btnViewLicence Text="关闭" />
+      <lbFailIntroduce Text="请确认您是否已经支付成功。" />
+      <lbFailTitle Text="没有收到您的支付信息" />
+      <btnPaymentFailed Text="重新支付" />
+      <btnReConfirm Text="确认支付完成" />
+      <linkSupport Text="获取帮助" />
+      <!--<btnBack Text="返回" />-->
+      <lbConfirmButtontIntroduce Text="如果您已经完成支付了，请点击以下支付确认按钮。" />
+      <lbSigned Text="系统已经为您创建了一个万兴通行证" />
+      <lbEmailIntroduct Text="账号" />
+      <lbPasswordIntroduce Text="密码" />
+      <lbPurchasedIntroduce Text="购买的功能" />
+    </PurchaseResultPage>
+    <OrderItemControl>
+      <btnInstall Text="安装" />
+      <lbInstallIntroduce Text="使用功能之前请先安装。" />
+    </OrderItemControl>
+    <PurchaseHintForm>
+      <btnBuynow Text="了解详情" />
+      <btnLaunch Text="立即启动功能" />
+      <btnTryAgain Text="请重试" />
+      <linkSignin Text="已是会员？  &lt;a&gt;登录&lt;/a&gt;" />
+      <linkVersion Text="您当前权限不足" />
+      <lbErrorTitle Text="跳转失败" />
+      <lbSuccessTitle Text="会员权限已开通" />
+    </PurchaseHintForm>
+    <PurchaseFeaturePage>
+      <linkSkip Text="继续试用" />
+      <btnBuynow Text="购买功能" />
+      <linkSignin Text="已经购买？ &lt;a&gt;立即登录&lt;/a&gt;" />
+    </PurchaseFeaturePage>
+    
+    <UpdateForm Text="升级">
+      <lbNotify Text="您有一个新版本可以免费升级" />
+      <lbWhatNew Text="更新详情:" />
+      <btnSkip Text="不再提醒" />
+      <btnUpdate Text="立即升级" />
+      <btnClose Text="稍后提醒" />
+      <lblProgressMsg Text="检测更新" />
+      <lblInformation Text="当前已是最新版本" />
+      <lbFailed Text="抱歉，升级失败。" />
+      <lbErrorTips Text="用户名或密码无效" />
+      <btnRetry Text="重试" />
+      <linkHelp Text="给客服发送问题反馈，或者查找&lt;a&gt;在线帮助&lt;/a&gt;。" />
+      <linkShow Text="您未升级的历史版本" />
+    </UpdateForm>
+    <WAFUpdateForm>
+      <btnUpdate Text="立即升级"  />
+      <lbNotify Text="Wondershare Passport有一个更新。&#xD;&#xA;&#xD;&#xA;" />
+      <lbWhatNew Text="提示:" />
+      <textIntro Text="万兴通行证是是Wondershare官方提供的应用程序服务组件，为确保应用程序能够正常使用，建议您使用最新版本。" />
+    </WAFUpdateForm>
+    <FeedbackForm Text="问题反馈">
+      <tbEmail PlaceHolderText="用于接收回复的邮箱" />
+      <tbDescription PlaceHolderText="为更好地帮助您解决问题，请详细描述您遇到的问题，例如报错，截图以及设备信息等。" />
+      <btnSubmit Text="提交" />
+      <btnAddimages Text="添加图片" />
+      <linkHelp Text="给客服发送问题反馈，或者查找&lt;a&gt;在线帮助&lt;/a&gt;。" />
+      <lbLogIntoduce Text="将log日志作为附件上传（选中之后自动上传）" />
+      <lbInstructions Text="您的建议我已经收到，会尽快答复您，再次感谢。" />
+      <lbError Text="抱歉，帖子提交失败。" />
+      <btnReSubmit Text="请重试" />
+      <linkSupport Text="如果问题依然未解决，请&lt;a&gt;联系客服&lt;/a&gt;。" />
+    </FeedbackForm>
+    <ActivityHintForm>
+      <cbShow Text="不再提醒" />
+    </ActivityHintForm>
+    <InstallAppsForm Text="安装App" />
+  </Forms>
+</LanguageResource>

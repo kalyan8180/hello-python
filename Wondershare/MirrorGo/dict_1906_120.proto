@@ -1,0 +1,202 @@
+message Datetime {
+    optional uint32 time = 1;
+    optional int32 zone = 2;
+}
+
+message Mirrorstart {
+    optional string sysscreensize = 1;
+    optional string sysos = 2;
+    optional string syscountry = 3;
+    optional string syslanguage = 4;
+}
+
+message Usbconnect {
+    optional string devicename = 1;
+    optional string systemversionandroid = 2;
+    optional string devicescreensize = 3;
+    optional bool rootornot = 4;
+}
+
+message Usbconnectsuccessful {
+    optional string devicename = 1;
+    optional string systemversionandroid = 2;
+    optional string devicescreensize = 3;
+    optional bool rootornot = 4;
+}
+
+message Usbconnectfailed {
+    optional string devicename = 1;
+    optional string systemversionandroid = 2;
+    optional string devicescreensize = 3;
+    optional bool rootornot = 4;
+    optional string whyfailed = 5;
+}
+
+message Mirrorconnectsuccessful {
+    optional string devicename = 1;
+    optional string systemversionandroid = 2;
+    optional string devicescreensize = 3;
+    optional bool rootornot = 4;
+}
+
+message Mirrorconnectfailed {
+    optional string devicename = 1;
+    optional string systemversionandroid = 2;
+    optional string devicescreensize = 3;
+    optional bool rootornot = 4;
+    optional string whyfailed = 5;
+}
+
+message Wificonnectsuccessful {
+    optional string devicename = 1;
+    optional string systemversionandroid = 2;
+    optional string devicescreensize = 3;
+    optional bool rootornot = 4;
+}
+
+message Wificonnectfailed {
+    optional string devicename = 1;
+    optional string systemversionandroid = 2;
+    optional string devicescreensize = 3;
+    optional bool rootornot = 4;
+    optional string whyfailed = 5;
+}
+
+message Mirrorswitchconnection {
+    optional string devicename = 1;
+    optional string systemversionios = 2;
+    optional string systemversionandroid = 3;
+    optional string devicescreensize = 4;
+    optional bool rootornot = 5;
+}
+
+message Mirrorswitchconnectionafter {
+    optional string devicename = 1;
+    optional string systemversionios = 2;
+    optional string systemversionandroid = 3;
+    optional string devicescreensize = 4;
+    optional bool rootornot = 5;
+}
+
+message Mirrorclosed {
+    optional bool keyboardentry = 1;
+    optional bool changeinputmethod = 2;
+    optional bool autoinstallapk = 3;
+    optional string openmirrornotification = 4;
+    optional bool batterysavingmode = 5;
+    optional bool keepscreenlockless = 6;
+    optional bool autostartmirrorgo = 7;
+    optional string mirrorstartapp = 8;
+    optional string duration = 9;
+    optional string mirrorduration = 10;
+    optional string windowsize = 11;
+}
+
+message Popupnotificationform {
+    optional string notificationappname = 1;
+}
+
+message Startmirrorhandleapp {
+    optional string handleappname = 1;
+}
+
+message Popupsmsform {
+    optional string smscharacternum = 1;
+}
+
+message Horizontalscreen {
+    optional string horizontalscreentime = 1;
+}
+
+message Directionbutton {
+    optional string specificdirection = 1;
+}
+
+message Dragfilestomirror {
+    optional string dragfiletype = 1;
+}
+
+message Clickstoprecord {
+    optional string recordduration = 1;
+}
+
+message New_device_connect_total {
+    optional string device_udid = 1;
+    optional string device_platform = 2;
+    optional string connect_type = 3;
+}
+
+message New_device_connect_success {
+    optional string device_udid = 1;
+    optional string device_platform = 2;
+    optional string connect_type = 3;
+}
+
+message New_device_connect_failed {
+    optional string device_udid = 1;
+    optional string device_platform = 2;
+    optional string connect_type = 3;
+}
+
+message Deviceconnection {
+    optional string os_name = 1;
+    optional string os_version = 2;
+    optional string os_version_build = 3;
+    optional string os_bits = 4;
+    optional string device_platform = 5;
+    optional string device_udid = 6;
+    optional string device_hardid = 7;
+    optional string device_vid = 8;
+    optional string device_pid = 9;
+    optional string device_version = 10;
+    optional string device_brand = 11;
+    optional string device_model = 12;
+    optional string connect_type = 13;
+    optional string connect_status = 14;
+    optional string connect_step = 15;
+    optional string connect_info = 16;
+    optional string connect_result = 17;
+    optional string connect_adbstatus = 18;
+    optional string connect_preparestatus = 19;
+    optional string connect_cancel = 20;
+    optional string connect_time = 21;
+    optional string connect_sign = 22;
+    optional string step_check = 23;
+    optional string step_usbdebug = 24;
+    optional string step_auth = 25;
+    optional string step_general_downdriver = 26;
+    optional string step_general_installdriver = 27;
+    optional string step_cloud_downdriver = 28;
+    optional string step_cloud_installdriver = 29;
+    optional string step_daemoninstall = 30;
+    optional string step_daemonupdate = 31;
+    optional string step_daemonconnect = 32;
+}
+
+message Duplicatedeviceconnectionsuccess {
+    optional string device_udid = 1;
+    optional string device_platform = 2;
+    optional string connect_type = 3;
+    optional string connect_sign = 4;
+    optional string connect_estimate = 5;
+    optional string connect_time = 6;
+    optional string retrycount = 7;
+    optional string allsuccesscount = 8;
+    optional string allfailcount = 9;
+    optional string successcount = 10;
+    optional string failcount = 11;
+}
+
+message Duplicatedeviceconnectionfail {
+    optional string device_udid = 1;
+    optional string device_platform = 2;
+    optional string connect_type = 3;
+    optional string connect_sign = 4;
+    optional string connect_estimate = 5;
+    optional string connect_time = 6;
+    optional string retrycount = 7;
+    optional string allsuccesscount = 8;
+    optional string allfailcount = 9;
+    optional string successcount = 10;
+    optional string failcount = 11;
+}
